@@ -1,3 +1,10 @@
+# Note 
+- Install Tailwind
+
+
+
+
+
 <p><img src="http://tailpress.io/images/tailpress100.svg" width="260" alt="TailPress"></p>
 
 [![GitHub release](https://img.shields.io/github/release/jeffreyvr/tailpress?include_prereleases=&sort=semver)](https://github.com/jeffreyvr/tailpress/releases/)
