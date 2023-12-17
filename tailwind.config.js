@@ -12,11 +12,8 @@ module.exports = {
     ],
     theme: {
         container: {
-            padding: {
-                DEFAULT: '1rem',
-                sm: '2rem',
-                lg: '0rem'
-            },
+            center : true,
+            padding: '16px',
         },
         extend: {
             colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),

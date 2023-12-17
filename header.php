@@ -22,7 +22,7 @@
 		<div class="mx-auto container ">
 			<div class="lg:flex lg:justify-between lg:items-center border-b py-6 ">
 				<div class="flex justify-between items-center">
-					<div>
+					<!-- <div>
 						<?php if ( has_custom_logo() ) { ?>
                             <?php the_custom_logo(); ?>
 						<?php } else { ?>
@@ -36,7 +36,7 @@
 
 						<?php } ?>
 					</div>
-
+ -->
 					<div class="lg:hidden">
 						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
 							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
