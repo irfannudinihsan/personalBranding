@@ -159,6 +159,14 @@
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
+.bg-pink-950 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(80 7 36 / var(--tw-bg-opacity))
+}
+.bg-pink-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(244 114 182 / var(--tw-bg-opacity))
+}
 .p-4 {
     padding: 1rem
 }
@@ -243,6 +251,10 @@
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+.text-blue-400 {
+    --tw-text-opacity: 1;
+    color: rgb(96 165 250 / var(--tw-text-opacity))
 }
 .underline {
     text-decoration-line: underline

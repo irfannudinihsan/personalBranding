@@ -2,6 +2,7 @@
 
 <div class="container mx-auto my-8">
 
+<!-- test index copy -->
 	<?php if ( have_posts() ) : ?>
 		<?php
 		while ( have_posts() ) :
