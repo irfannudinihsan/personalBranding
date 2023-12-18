@@ -16,8 +16,13 @@ module.exports = {
             padding: '16px',
         },
         extend: {
-            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
-            fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme))
+
+            fontFamily: {
+                'poppins' : ['Poppins']
+              },
+
+            /* colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
+            fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme)) */
         },
         screens: {
             'xs': '480px',

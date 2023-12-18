@@ -3,13 +3,13 @@
 
 
 <!-- section hero -->
-<section id="home" class="pt-40 ">
+<section id="home" class="pt-40 bg-orange-50 bg-opacity-50 relative -z-10">
 <div class="container">
 	<div class="flex flex-wrap center">
 		<!-- description hero -->
 		<div class="w-full px-4 lg:w-1/2">
 		<p class="font-bold text-xl text-orange-600">Hi, Im</p>
-		<h1 class="font-bold text-4xl lg:text-6xl text-blue-800 mb-4" >Irfannudin Ihsan</h1>
+		<h1 class="font-bold text-4xl lg:text-6xl text-blue-800 mb-4 font-poppins" >Irfannudin Ihsan</h1>
 		<p class="font-bold text-xl text-blue-800 mb-4" >Web Developer</p>
 		<p class="text-slate-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel tempora, perferendis cum provident iste necessitatibus!</p>
 
@@ -38,7 +38,10 @@
 
 <!-- counting -->
 <section>
-<div  class="mx-auto lg:w-[1000px] bg-white p-8 rounded-full -mt-8 z-10 absolute left-1/2 transform -translate-x-1/2 shadow-xl flex justify-evenly">
+
+<div class="container">
+
+<div  class="mx-auto w-full flex  lg:w-[1000px] bg-white lg:p-8 rounded-full -mt-8 z-10 absolute left-1/2 transform -translate-x-1/2 shadow-xl justify-evenly">
 
 <div class="flex">
 <div class="p-2 bg-orange-600 rounded-full mx-1 ">
@@ -82,6 +85,10 @@
 
 </div>
 
+
+</div>
+
+<!-- end -->
 </section>
 
 
