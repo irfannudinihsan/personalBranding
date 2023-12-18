@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+	<link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
 	<?php wp_head(); ?>
 </head>
 
@@ -17,7 +19,7 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header class=" absolute left-0 w-full z-50">
+	<header class=" absolute left-0 w-full z-50 py-4 font-poppins">
 
 		<div class="mx-auto container  ">
 			<div class="lg:flex lg:justify-between lg:items-center  ">
