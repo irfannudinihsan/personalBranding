@@ -17,12 +17,12 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header>
+	<header class=" absolute left-0 w-full z-50">
 
-		<div class="mx-auto container ">
-			<div class="lg:flex lg:justify-between lg:items-center border-b py-6 ">
+		<div class="mx-auto container  ">
+			<div class="lg:flex lg:justify-between lg:items-center  ">
 				<div class="flex justify-between items-center">
-					<!-- <div>
+					<div class="lg:w-[160px] hidden sm:hidden md:hidden lg:block">
 						<?php if ( has_custom_logo() ) { ?>
                             <?php the_custom_logo(); ?>
 						<?php } else { ?>
@@ -36,7 +36,7 @@
 
 						<?php } ?>
 					</div>
- -->
+
 					<div class="lg:hidden">
 						<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
 							<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1"
@@ -56,7 +56,7 @@
 				wp_nav_menu(
 					array(
 						'container_id'    => 'primary-menu',
-						'container_class' => ' hidden bg-gray-100 mt-4 p-4 mx-20 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
+						'container_class' => ' hidden  mt-4  lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary',
 						'li_class'        => 'lg:mx-4',
