@@ -226,7 +226,7 @@
 
 
 <!-- section service -->
-<section class="pt-96" >
+<section class="pt-96 sm:pt-60 sm:pb-60 " >
 
 <div class="container font-poppins">
 
@@ -304,7 +304,7 @@
 
 <!-- section Achivement -->
 
-<section  class="pt-40 font-poppins ">
+<section  class="pt-40 pb-40 font-poppins bg-[#FBFBFB] ">
 
 <div class="container">
 
@@ -338,10 +338,10 @@ If you need Webdev, contact me
 <div class="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3">
 
 <!-- item grid -->
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-video bg-blue-100 bg-opacity-20 relative mt-10">
+<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
-<div class="p-4 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img width="72" height="72" src="http://latihan1.local/wp-content/themes/personalBranding/images/email-white.svg" alt="">
+<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
+<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/email-white.svg" alt="">
 </div>
 
 </div>
@@ -356,10 +356,10 @@ If you need Webdev, contact me
 </div>
 <!-- end item grid -->
 <!-- item grid -->
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-video bg-blue-100 bg-opacity-20 relative mt-10">
+<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
-<div class="p-4 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img width="72" height="72" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
+<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
+<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/wa-white.svg" alt="">
 </div>
 
 </div>
@@ -374,10 +374,10 @@ If you need Webdev, contact me
 </div>
 <!-- end item grid -->
 <!-- item grid -->
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-video bg-blue-100 bg-opacity-20 relative mt-10">
+<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
-<div class="p-4 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img width="72" height="72" src="http://latihan1.local/wp-content/themes/personalBranding/images/email-white.svg" alt="">
+<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
+<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/linkedin-white.svg" alt="">
 </div>
 
 </div>
@@ -392,10 +392,10 @@ If you need Webdev, contact me
 </div>
 <!-- end item grid -->
 <!-- item grid -->
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-video bg-blue-100 bg-opacity-20 relative mt-10">
+<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
-<div class="p-4 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img width="72" height="72" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
+<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
+<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
 </div>
 
 </div>
@@ -433,15 +433,17 @@ If you need Webdev, contact me
 
 
 
-<section class="pt-40">
+<section class="pt-40 font-poppins">
 
 <div class="container">
 
 <!-- title section -->
-<div class="">
+<div class="mb-10">
 
-<p>Customers Review</p>
-<h1>What Client</h1>
+
+
+<p class="font-bold text-xl text-blue-900 poppins inline-block">Customers Review</p>
+<h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">What Client</h1>
 </div>
 
 <div class="flex flex-wrap center justify-between">
@@ -449,7 +451,7 @@ If you need Webdev, contact me
 <!-- card customer -->
 <div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-<div class="p-6 rounded-xl border-orange-600  border-2  mb-6">
+<div class="p-6 rounded-xl border-blue-500  border-2  mb-6 shadow-2xl shadow-blue-200">
 
 <div class="flex mb-4">
 	
@@ -473,7 +475,8 @@ If you need Webdev, contact me
 
 <div class="mx-1">
 <h1 class="text-lg font-bold ">Jonn Canedy </h1>
-<p class="text-sm font-bold text-slate-500">Web Developer</p>
+<p class="text-slate-400 text-sm text-cente">Web Developer</p>
+
 
 </div>
 
@@ -491,7 +494,7 @@ If you need Webdev, contact me
 <!-- card customer -->
 <div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-<div class="p-6 rounded-xl border-orange-600  border-2  mb-6">
+<div class="p-6 rounded-xl border-blue-500  border-2  mb-6 shadow-2xl shadow-blue-200">
 
 <div class="flex mb-4">
 	
@@ -513,9 +516,11 @@ If you need Webdev, contact me
 <img width="60px" class="rounded-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" >
 			
 
+
+
 <div class="mx-1">
 <h1 class="text-lg font-bold ">Jonn Canedy </h1>
-<p class="text-sm font-bold text-slate-500">Web Developer</p>
+<p class="text-slate-400 text-sm text-cente">Web Developer</p>
 
 </div>
 
@@ -547,8 +552,10 @@ If you need Webdev, contact me
 <!-- title section -->
 <div class="">
 
-<p>SUBCRIBE</p>
-<h1>CONTACT US </h1>
+
+
+<p class="font-bold text-xl text-blue-900 poppins inline-block">Subcribe</p>
+<h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">Contact Us </h1>
 </div>
 
 <div class="flex flex-wrap center justify-between">
@@ -575,14 +582,15 @@ If you need Webdev, contact me
 <label
           for=""
           form="email"
-          class="block font-poppins font-semibold mb-1  dark:text-slate-100"
+          class="block font-poppins font-normal mb-1  dark:text-slate-100"
           >Your Name</label
         >
         <input
           type="email"
           id="email"
-          placeholder="masukan email..."
-          class="border w-full px-2 py-2 block rounded-lg placeholder:text-slate-500 " />
+          class="border bg-gray-50 border-gray-300 w-full px-2 py-3 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500 " />
+
+ 
 
 </div>
 <div class="mb-4">
@@ -590,14 +598,15 @@ If you need Webdev, contact me
 <label
           for=""
           form="email"
-          class="block font-poppins font-semibold mb-1  dark:text-slate-100"
-          >Email</label
+          class="block font-poppins font-normal mb-1  dark:text-slate-100"
+          >Your Email</label
         >
         <input
           type="email"
           id="email"
-          placeholder="masukan email..."
-          class="border w-full px-2 py-2 block rounded-lg placeholder:text-slate-500 " />
+          class="border bg-gray-50 border-gray-300 w-full px-2 py-3 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500 " />
+
+ 
 
 </div>
 <div class="mb-4">
@@ -605,14 +614,16 @@ If you need Webdev, contact me
 <label
           for=""
           form="email"
-          class="block font-poppins font-semibold mb-1  dark:text-slate-100"
-          >Email</label
+          class="block font-poppins font-normal mb-1  dark:text-slate-100"
+          >Your Subject</label
         >
         <input
           type="email"
           id="email"
-          placeholder="masukan email..."
-          class="border w-full px-2 py-2 block rounded-lg placeholder:text-slate-500 " />
+         
+          class="border bg-gray-50 border-gray-300 w-full px-2 py-3 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500 " />
+
+ 
 
 </div>
 <div class="mb-4">
@@ -620,19 +631,25 @@ If you need Webdev, contact me
 <label
           for=""
           form="email"
-          class="block font-poppins font-semibold mb-1  dark:text-slate-100"
-          >Email</label
+          class="block font-poppins font-normal mb-1  dark:text-slate-100"
+          >Your Message</label
         >
-        <input
-          type="email"
-          id="email"
-          placeholder="masukan email..."
-          class="border w-full px-2 py-2 block rounded-lg placeholder:text-slate-500 " />
 
+		<textarea  type="email"
+          id="email" name="" id="" cols="20" rows="6" class="border bg-gray-50 border-gray-300 w-full px-2 py-10 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500 ">
+
+
+		</textarea>
+        
 </div>
 
+
+
+
+
+
 <div class="mb-4">
-<a href="" class="inline-block bg-orange-600 py-3 px-8 rounded-full text-white mb-6  text-md">Download CV</a>
+<a href="" class="inline-block bg-blue-500 py-3 px-8 rounded-full text-white mb-3 font-semibold text-sm font-poppins">Submit</a>
 	</div>
         
       </form>
