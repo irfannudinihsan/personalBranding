@@ -1,21 +1,26 @@
 <?php get_header(); ?>
 
-
-
 <!-- section hero -->
-<section id="home" class="pt-40 bg-orange-50 bg-opacity-50 relative -z-10">
+<section id="home" class="pt-40 bg-blue-50 bg-opacity-70 relative -z-10">
 <div class="container">
 	<div class="flex flex-wrap center">
 		<!-- description hero -->
-		<div class="w-full px-4 lg:w-1/2">
-		<p class="font-bold text-xl text-orange-600 poppins">Hi, Im</p>
-		<h1 class="font-bold text-4xl lg:text-6xl text-blue-900 mb-4 font-poppins" >Irfannudin Ihsan</h1>
-		<p class="font-bold text-xl text-blue-900 mb-4 font-poppins" >Web Developer</p>
-		<p class="text-slate-400 font-poppins text-sm ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel tempora, perferendis cum provident iste necessitatibus!</p>
+		<div class="w-full px-2 lg:w-1/2 flex flex-col justify-center ">
+		<p class="font-bold text-xl text-blue-900 poppins inline-block">Hi, Im</p>
+		<h1 class="font-bold text-4xl lg:text-6xl text-blue-500 mb-4 font-poppins" >Irfannudin Ihsan</h1>
 
-		<div class="mt-10 ">
-		<a href="" class="inline-block bg-orange-600 py-3 px-8 rounded-full text-white mb-6  text-md font-poppins">Download CV</a>
-		<a href="" class="inline-block bg-white py-3 px-8 rounded-full text-orange-600 border border-2 border-orange-600 text-md font-poppins">Contact</a>
+		 
+
+			<p class="font-semibold text-xl text-blue-900 mb-4 font-poppins px-2 p-1 w-fit rounded-md bg-blue-100 inline-block " >Web Developer</p>
+	
+
+		<p class="text-slate-400 font-poppins text-sm font-normal ">You call me Irfan. I am interested in Web Developer and UI/UX Designer. I usually create designs using Figma and then implement them in HTML, CSS, Javascript, React JS, or Wordpress.
+
+<br> <br> Thank you for your support and if you would like to collaborate.</p>
+
+		<div class="mt-6 ">
+		<a href="" class="inline-block bg-blue-500 py-3 px-8 rounded-full text-white mb-3 font-semibold text-sm font-poppins">Download CV</a>
+		<a href="" class="inline-block bg-white py-3 px-8 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins">Contact</a>
 		</div>
 
 
@@ -25,8 +30,8 @@
 		<div class="w-full px-4 lg:w-1/2">
 			<div class="relative mt-10 -z-1 ">
 				<img src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
-			<span class="absolute bottom-0 -z-10  left-1/2 -translate-x-1/2" >
-				<img class="lg:w-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/blob.png" >
+			<span class="absolute  w-[240px] xs:w-[360px] bottom-0 -z-10 w-xl left-1/2 -translate-x-1/2" >
+				<img class="w-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/blob_blue.svg" >
 			</span>
 			</div>
 
@@ -41,27 +46,42 @@
 
 <div class="container font-poppins">
 
-<div  class="mx-auto w-full sm:flex lg:w-[1000px] bg-white p-4 lg:p-8 rounded-full -mt-8 z-10 absolute left-1/2 transform -translate-x-1/2 shadow-xl sm:snap-y   ">
+<div  class="mx-auto w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full  -mt-12 z-10 absolute left-1/2 transform -translate-x-1/2 shadow-xl    ">
 
-<div class="flex w-full justify-center my-2 snap-center">
-<div class="p-2 bg-orange-600 rounded-full mx-1 ">
+<div class="flex w-full justify-center my-4 snap-center">
+<div class="p-3 bg-blue-900 rounded-full mx-1 ">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/tick.svg" alt="">
+<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/github.svg" alt="">
 
 
 </div>
 
 <div class="mx-1">
-<h1 class="text-lg font-bold text-blue-800 font-blue-900">8 Years Job </h1>
-<p class="text-sm font-normal text-orange-600">Experience</p>
+<h1 class="text-lg font-bold text-blue-900 font-blue-900">Github </h1>
+<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
 
 </div>
 
 </div>
-<div class="flex w-full justify-center my-2 snap-center">
-<div class="p-2 bg-orange-600 rounded-full mx-1 inline-block ">
+<div class="flex w-full justify-center my-4 snap-center">
+<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+
+<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/dribble.svg" alt="">
+
+
+</div>
+
+<div class="mx-1">
+<h1 class="text-lg font-bold text-blue-900 font-blue-900">Dribbble </h1>
+<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
+
+</div>
+
+</div>
+<div class="flex w-full justify-center my-4 snap-center">
+<div class="p-3 bg-blue-900 rounded-full mx-1 ">
 	
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/code.svg" alt="">
+<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/linkedin.svg" alt="">
 
 	
 
@@ -69,24 +89,23 @@
 </div>
 
 <div class="mx-1">
-<h1 class="text-lg font-bold text-blue-800 font-blue-900">10++ Project</h1>
-<p class="text-sm font-normal text-orange-600">Completed</p>
-
-
-</div>
+<h1 class="text-lg font-bold text-blue-900 font-blue-900">Linkedin </h1>
+<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
 
 </div>
-<div class="flex w-full justify-center my-2 snap-center">
-<div class="p-2 bg-orange-600 rounded-full mx-1 ">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/earphone.svg" alt="">
+</div>
+<div class="flex w-full justify-center my-4 snap-center">
+<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+
+<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
 	
 
 </div>
 
 <div class="mx-1">
-<h1 class="text-lg font-bold text-blue-800 font-blue-900">Online 24/7 </h1>
-<p class="text-sm font-normal text-orange-600">Support</p>
+<h1 class="text-lg font-bold text-blue-900 font-blue-900">Instagram </h1>
+<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
 
 
 </div>
