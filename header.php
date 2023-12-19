@@ -19,9 +19,9 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header class=" absolute left-0 w-full z-50 py-4 font-poppins">
+	<header class=" absolute left-0 w-full z-50 py-4 font-poppins bg-white">
 
-		<div class="mx-auto container  ">
+		<div class="mx-auto container ">
 			<div class="lg:flex lg:justify-between lg:items-center  ">
 				<div class="flex justify-between items-center">
 					<div class="lg:w-[160px] hidden sm:hidden md:hidden lg:block">
@@ -58,7 +58,7 @@
 				wp_nav_menu(
 					array(
 						'container_id'    => 'primary-menu',
-						'container_class' => ' hidden  mt-4  lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
+						'container_class' => 'hidden font-normal text-blue-900 mt-4  text-lg  lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
 						'menu_class'      => 'lg:flex lg:-mx-4',
 						'theme_location'  => 'primary',
 						'li_class'        => 'lg:mx-4',
