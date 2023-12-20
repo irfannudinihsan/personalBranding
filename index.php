@@ -241,7 +241,7 @@
 
 
 <!-- item grid -->
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-square px-4">
+<div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 <img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/web.svg" alt="">
 </div>
@@ -256,8 +256,23 @@
 
 </div>
 
+<div class=" w-full flex justify-center flex-wrap">
+
+	
+
+<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/css.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/js.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/bt.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/tw.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/rj.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/lrv.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wp.svg" alt="">
+
 </div>
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-square px-4">
+
+</div>
+<div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 <img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/webdesign.svg" alt="">
 </div>
@@ -272,8 +287,21 @@
 
 </div>
 
+<div class=" w-full flex justify-center flex-wrap">
+
+	
+
+<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/css.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/bt.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/tw.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wp.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wf.svg" alt="">
+
 </div>
-<div class="flex flex-col items-center justify-center rounded-xl shadow-lg aspect-square px-4">
+
+</div>
+<div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 <img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/ui.svg" alt="">
 </div>
@@ -287,6 +315,18 @@
 <p class="text-slate-400 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et nostrum ab.</p>
 
 </div>
+
+<div class=" w-full flex justify-center flex-wrap">
+
+	
+
+<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/fg.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/cv.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/ai.svg" alt="">
+
+
+</div>
+
 
 </div>
 
