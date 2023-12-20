@@ -6,7 +6,7 @@
 	<div class="flex flex-wrap center">
 		<!-- description hero -->
 		<div class="w-full px-2 lg:w-1/2 flex flex-col justify-center ">
-		<p class="font-bold text-xl text-blue-900 poppins inline-block">Hi, Im</p>
+		<p class="font-semibold text-xl text-blue-900 poppins inline-block">Hi, Im</p>
 		<h1 class="font-bold text-4xl lg:text-6xl text-blue-500 mb-4 font-poppins" >Irfannudin Ihsan</h1>
 
 			<p class="font-semibold text-xl text-blue-900 mb-4 font-poppins px-2 p-1 w-fit rounded-md bg-blue-100 inline-block " >Web Developer</p>
@@ -226,7 +226,7 @@
 
 
 <!-- section service -->
-<section class="pt-96 sm:pt-60 sm:pb-60 " >
+<section id="service" class="pt-96 sm:pt-60 sm:pb-60 " >
 
 <div class="container font-poppins">
 
@@ -234,7 +234,7 @@
 
 <!-- item grid -->
 <div class="">
-<p class="font-bold text-xl text-blue-900 poppins inline-block">Service</p>
+<p class="font-semibold text-xl text-blue-900 poppins inline-block">Service</p>
 		<h2 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins" >services for collaboration</h2>
 
 </div>
@@ -291,7 +291,7 @@
 
 	
 
-<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
+<img class="mx-2 my-2 "  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
 <img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/css.svg" alt="">
 <img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/bt.svg" alt="">
 <img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/tw.svg" alt="">
@@ -344,7 +344,7 @@
 
 <!-- section Achivement -->
 
-<section  class="pt-40 pb-40 font-poppins bg-[#FBFBFB] ">
+<section id="contact"  class="pt-40 pb-40 font-poppins bg-[#FBFBFB] ">
 
 <div class="container">
 
@@ -388,8 +388,8 @@ If you need Webdev, contact me
 
 <div class="text-center mt-10  ">
 
-	<h2 class="text-lg  font-semibold  ">Email</h2>
-	<p class="text-slate-400 text-sm text-center">irfannudinihsan@gmail.com</p>
+	<h2 class="text-lg  font-semibold lg:text-xl  ">Email</h2>
+	<p class="text-slate-400 text-sm text-center lg:text-lg">irfannudinihsan@gmail.com</p>
 
 </div>
 
@@ -406,8 +406,8 @@ If you need Webdev, contact me
 
 <div class="text-center mt-10  ">
 
-	<h2 class="text-lg  font-semibold  ">Whatsapp</h2>
-	<p class="text-slate-400 text-sm text-center">+628-5831-0084-76</p>
+	<h2 class="text-lg  font-semibold lg:text-xl  ">Whatsapp</h2>
+	<p class="text-slate-400 text-sm text-center lg:text-lg">+628-5831-0084-76</p>
 
 </div>
 
@@ -424,8 +424,8 @@ If you need Webdev, contact me
 
 <div class="text-center mt-10  ">
 
-	<h2 class="text-lg  font-semibold  ">Linkedin</h2>
-	<p class="text-slate-400 text-sm text-center">irfanudinihsan</p>
+	<h2 class="text-lg  font-semibold lg:text-xl   ">Linkedin</h2>
+	<p class="text-slate-400 text-sm text-center lg:text-lg">irfanudinihsan</p>
 
 </div>
 
@@ -442,8 +442,8 @@ If you need Webdev, contact me
 
 <div class="text-center mt-10  ">
 
-	<h2 class="text-lg  font-semibold  ">Instagram</h2>
-	<p class="text-slate-400 text-sm text-center">irfannudinihsan</p>
+	<h2 class="text-lg  font-semibold lg:text-xl  ">Instagram</h2>
+	<p class="text-slate-400 text-sm text-center lg:text-lg">irfannudinihsan</p>
 
 </div>
 
@@ -473,7 +473,7 @@ If you need Webdev, contact me
 
 
 
-<section class="pt-40 font-poppins">
+<section id="customer" class="pt-40 font-poppins">
 
 <div class="container">
 
@@ -491,7 +491,7 @@ If you need Webdev, contact me
 <!-- card customer -->
 <div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-<div class="p-6 rounded-xl border-blue-500  border-2  mb-6 shadow-2xl shadow-blue-200">
+<div class="p-6 rounded-xl border-blue-900  border-2  mb-6 shadow-2xl shadow-blue-200">
 
 <div class="flex mb-4">
 	
@@ -503,7 +503,7 @@ If you need Webdev, contact me
 
 </div>
 
-<p class=" mb-4">
+<p class=" mb-4 text-slate-500">
 	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quisquam qui! Placeat voluptas consequuntur explicabo?
 </p>
 
@@ -534,7 +534,7 @@ If you need Webdev, contact me
 <!-- card customer -->
 <div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-<div class="p-6 rounded-xl border-blue-500  border-2  mb-6 shadow-2xl shadow-blue-200">
+<div class="p-6 rounded-xl border-blue-900  border-2  mb-6 shadow-2xl shadow-blue-200">
 
 <div class="flex mb-4">
 	
@@ -546,7 +546,7 @@ If you need Webdev, contact me
 
 </div>
 
-<p class=" mb-4">
+<p class=" mb-4 text-slate-500">
 	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quisquam qui! Placeat voluptas consequuntur explicabo?
 </p>
 
@@ -585,7 +585,9 @@ If you need Webdev, contact me
 </div>
 
 </section>
-<section class="pt-40">
+
+
+<section id="" class="pt-40">
 
 <div class="container">
 
@@ -594,7 +596,7 @@ If you need Webdev, contact me
 
 
 
-<p class="font-bold text-xl text-blue-900 poppins inline-block">Subcribe</p>
+<p class="font-semibold text-xl text-blue-900 poppins inline-block">Subcribe</p>
 <h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">Contact Us </h1>
 </div>
 
