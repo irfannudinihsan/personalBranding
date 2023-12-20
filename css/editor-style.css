@@ -258,13 +258,13 @@
     --tw-border-opacity: 1;
     border-color: rgb(59 130 246 / var(--tw-border-opacity))
 }
-.border-gray-300 {
-    --tw-border-opacity: 1;
-    border-color: rgb(209 213 219 / var(--tw-border-opacity))
-}
 .border-blue-900 {
     --tw-border-opacity: 1;
     border-color: rgb(30 58 138 / var(--tw-border-opacity))
+}
+.border-gray-300 {
+    --tw-border-opacity: 1;
+    border-color: rgb(209 213 219 / var(--tw-border-opacity))
 }
 .bg-\[\#FBFBFB\] {
     --tw-bg-opacity: 1;
@@ -725,10 +725,6 @@ body {
     .lg\:text-xl {
         font-size: 1.25rem;
         line-height: 1.75rem
-    }
-    .lg\:text-2xl {
-        font-size: 1.5rem;
-        line-height: 2rem
     }
 }
 @media (min-width: 1280px) {

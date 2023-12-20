@@ -27,9 +27,9 @@
 		<!-- image hero -->
 		<div class="w-full px-4 lg:w-1/2">
 			<div class="relative mt-10 -z-1 ">
-				<img src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
+				<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
 			<span class="absolute  w-[240px] xs:w-[360px] bottom-0 -z-10 w-xl left-1/2 -translate-x-1/2" >
-				<img class="w-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/blob_blue.svg" >
+				<img class="w-full"  src="<?php bloginfo('template_url') ?>/images/blob_blue.svg" >
 			</span>
 			</div>
 
@@ -49,7 +49,7 @@
 <div class="flex w-full justify-center my-4 snap-center">
 <div class="p-3 bg-blue-900 rounded-full mx-1 ">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/github.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/github.svg" alt="">
 
 
 </div>
@@ -64,7 +64,7 @@
 <div class="flex w-full justify-center my-4 snap-center">
 <div class="p-3 bg-blue-900 rounded-full mx-1 ">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/dribble.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/dribble.svg" alt="">
 
 
 </div>
@@ -79,7 +79,7 @@
 <div class="flex w-full justify-center my-4 snap-center">
 <div class="p-3 bg-blue-900 rounded-full mx-1 ">
 	
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/linkedin.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/linkedin.svg" alt="">
 
 	
 
@@ -96,7 +96,8 @@
 <div class="flex w-full justify-center my-4 snap-center">
 <div class="p-3 bg-blue-900 rounded-full mx-1 ">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/instagram.svg" alt="ig">
+
 	
 
 </div>
@@ -151,7 +152,7 @@
 
 <div class="p-3 bg-orange-100 rounded-full mx-1 inline-block mb-3">
 
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/web.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
 
 </div>
 
@@ -171,7 +172,7 @@
 <div class="rounded-xl shadow-lg p-10  sm:w-56 sm:h-56 md:w-72 md:h-72  lg:w-80 lg:h-80 bg-white  ">
 
 <div class="p-3 bg-orange-100 rounded-full mx-1 inline-block mb-2">
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/webdesign.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
 </div>
 
 <div class="mb-3">
@@ -190,7 +191,7 @@
 <div class="rounded-xl shadow-lg p-10 sm:w-56 sm:h-56 md:w-72 md:h-72  lg:w-80 lg:h-80 bg-white  ">
 
 <div class="p-3 bg-orange-100 rounded-full mx-1 inline-block mb-3">
-<img width="28" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/ui.svg" alt="">
+<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
 </div>
 
 <div class="mb-3">
@@ -243,7 +244,7 @@
 <!-- item grid -->
 <div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-<img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/web.svg" alt="">
+<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
 </div>
 
 <div class="mb-3 px-2 ">
@@ -260,21 +261,21 @@
 
 	
 
-<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/css.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/js.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/bt.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/tw.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/rj.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/lrv.svg" alt="">
-<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wp.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/js.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/rj.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/lrv.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
 
 </div>
 
 </div>
 <div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-<img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/webdesign.svg" alt="">
+<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
 </div>
 
 <div class="mb-3 px-2 ">
@@ -291,19 +292,19 @@
 
 	
 
-<img class="mx-2 my-2 "  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/html.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/css.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/bt.svg" alt="">
-<img class="mx-2 my-2" width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/tw.svg" alt="">
-<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wp.svg" alt="">
-<img class="mx-2 my-2" width="32" height="28" src="http://latihan1.local/wp-content/themes/personalBranding/images/wf.svg" alt="">
+<img class="mx-2 my-2 "  width="32" height="32" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
+<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
+<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wf.svg" alt="">
 
 </div>
 
 </div>
 <div class="flex flex-col items-center  rounded-xl shadow-lg aspect-square p-10">
 <div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-<img width="56" height="56" src="http://latihan1.local/wp-content/themes/personalBranding/images/ui.svg" alt="">
+<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
 </div>
 
 <div class="mb-3 px-2 ">
@@ -320,9 +321,9 @@
 
 	
 
-<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/fg.svg" alt="">
-<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/cv.svg" alt="">
-<img class="mx-2 my-2"  width="32" height="32" src="http://latihan1.local/wp-content/themes/personalBranding/images/ai.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="<?php bloginfo('template_url') ?>/images/fg.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="<?php bloginfo('template_url') ?>/images/cv.svg" alt="">
+<img class="mx-2 my-2"  width="32" height="32" src="<?php bloginfo('template_url') ?>/images/ai.svg" alt="">
 
 
 </div>
@@ -381,7 +382,7 @@ If you need Webdev, contact me
 <div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
 <div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/email-white.svg" alt="">
+<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-white.svg" alt="">
 </div>
 
 </div>
@@ -399,7 +400,7 @@ If you need Webdev, contact me
 <div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
 <div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/wa-white.svg" alt="">
+<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-white.svg" alt="">
 </div>
 
 </div>
@@ -417,7 +418,7 @@ If you need Webdev, contact me
 <div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
 <div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/linkedin-white.svg" alt="">
+<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-white.svg" alt="">
 </div>
 
 </div>
@@ -435,7 +436,7 @@ If you need Webdev, contact me
 <div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative mt-10">
 <div class="absolute -top-8">
 <div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-<img class="w-16 xl:w-20" src="http://latihan1.local/wp-content/themes/personalBranding/images/instagram.svg" alt="">
+<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/instagram.svg" alt="">
 </div>
 
 </div>
@@ -495,10 +496,10 @@ If you need Webdev, contact me
 
 <div class="flex mb-4">
 	
-		<img class="mx-1" width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
+		<img class="mx-1" width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
 	
 
 </div>
@@ -510,7 +511,7 @@ If you need Webdev, contact me
 <div class=" mb-4">
 
 <div class="flex">
-<img width="60px" class="rounded-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" >
+<img width="60px" class="rounded-full"  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" >
 			
 
 <div class="mx-1">
@@ -538,10 +539,10 @@ If you need Webdev, contact me
 
 <div class="flex mb-4">
 	
-		<img class="mx-1" width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
-		<img class="mx-1"  width="24px" height="24px" src="http://latihan1.local/wp-content/themes/personalBranding/images/star.png" alt="">
+		<img class="mx-1" width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
+		<img class="mx-1"  width="24px" height="24px" src="<?php bloginfo('template_url') ?>/images/star.png" alt="">
 	
 
 </div>
@@ -553,7 +554,7 @@ If you need Webdev, contact me
 <div class=" mb-4">
 
 <div class="flex">
-<img width="60px" class="rounded-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" >
+<img width="60px" class="rounded-full"  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" >
 			
 
 
@@ -607,7 +608,7 @@ If you need Webdev, contact me
 <div class="w-full lg:w-1/2    ">
 
 <div class="relative mt-10 -z-1 ">
-				<img src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
+				<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
 			</div>
 
 
