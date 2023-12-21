@@ -2,7 +2,7 @@
 
 <!-- section hero -->
 <section id="home" class="pt-40 bg-blue-50 bg-opacity-70 relative -z-10">
-<div class="container">
+<div class="container mx-auto md:px-10 ">
 	<div class="flex flex-wrap center">
 		<!-- description hero -->
 		<div class="w-full px-2 lg:w-1/2 flex flex-col justify-center ">
@@ -27,7 +27,7 @@
 		<!-- image hero -->
 		<div class="w-full px-4 lg:w-1/2">
 			<div class="relative mt-10 -z-1 ">
-				<img src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
+				<img src="http://latihan1.local/wp-content/themes/personalBranding/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto ">
 			<span class="absolute  w-[240px] xs:w-[360px] bottom-0 -z-10 w-xl left-1/2 -translate-x-1/2" >
 				<img class="w-full"  src="http://latihan1.local/wp-content/themes/personalBranding/images/blob_blue.svg" >
 			</span>
@@ -228,7 +228,7 @@
 <!-- section service -->
 <section class="pt-96 sm:pt-60 sm:pb-60 " >
 
-<div class="container font-poppins">
+<div class="container font-poppins mx-auto md:px-10">
 
 <div class="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-4 gap-3">
 
@@ -306,7 +306,7 @@
 
 <section  class="pt-40 pb-40 font-poppins bg-[#FBFBFB] ">
 
-<div class="container">
+<div class="container mx-auto md:px-10">
 
 <!-- title section -->
 <div class="flex flex-wrap center">
@@ -435,9 +435,9 @@ If you need Webdev, contact me
 
 <section class="pt-40 font-poppins">
 
-<div class="container">
+<div class="container mx-auto md:px-10">
 
-<!-- title section -->
+<!-- title section --> 
 <div class="mb-10">
 
 
@@ -547,7 +547,7 @@ If you need Webdev, contact me
 </section>
 <section class="pt-40">
 
-<div class="container">
+<div class="container mx-auto md:px-10">
 
 <!-- title section -->
 <div class="">
