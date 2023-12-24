@@ -10,6 +10,7 @@ module.exports = {
         './resources/js/*.js',
         './safelist.txt'
     ],
+    darkMode: 'class',
     theme: {
         container: {
             center : true,

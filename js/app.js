@@ -15,6 +15,15 @@ window.addEventListener('load', function () {
     main_navigation.classList.toggle('hidden');
   });
 });
+var darkToggle = document.querySelector('#dark-toggle');
+var html = document.querySelector('html');
+darkToggle.addEventListener('click', function () {
+  if (darkToggle.checked) {
+    html.classList.add('dark');
+  } else {
+    html.classList.remove('dark');
+  }
+});
 
 /***/ }),
 

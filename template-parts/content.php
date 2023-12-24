@@ -1,8 +1,12 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'mb-12' ); ?> >
+<article class="bg-white shadow-2xl my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>  >
 
-	<header class="entry-header mb-4  bg-white shadow-sm p-5">
-		<?php the_title( sprintf( '<h2 class="entry-title text-2xl md:text-3xl font-extrabold leading-tight mb-1"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>
+	<header class="entry-header mb-4">
+
+<?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
+
+		<?php the_title( sprintf( '<h2 class="entry-title text-lg   md:text-3xl font-extrabold leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-slate-500"><?php echo get_the_date(); ?></time>
+
 	</header>
 
 
@@ -10,7 +14,7 @@
 
 	
 
-<!-- 	<?php if ( is_search() || is_archive() ) : ?>
+	<?php if ( is_search() || is_archive() ) : ?>
 
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
@@ -18,7 +22,7 @@
 
 	<?php else : ?>
 
-		<div class="entry-content">
+		<div class="entry-content text-slate-600 text-sm">
 			<?php
 			/* translators: %s: Name of current post */
 			the_content(
@@ -41,6 +45,6 @@
 			?>
 		</div>
 
-	<?php endif; ?> -->
+	<?php endif; ?>
 
 </article>

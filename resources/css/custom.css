@@ -9,11 +9,18 @@
     @font-face {
         font-family: Poppins;
     }
+
+
 }
 
 
 @layer components {
 
+    
+
+#dark-toggle:checked ~ label div.toggle-circle {
+    @apply translate-x-3
+}
     
 }
 
