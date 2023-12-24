@@ -4,7 +4,7 @@
 
 <?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
 
-		<?php the_title( sprintf( '<h2 class="entry-title text-lg   md:text-3xl font-extrabold leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<?php the_title( sprintf( '<h2 class="entry-title text-lg   md:text-2xl font-normal leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-slate-500"><?php echo get_the_date(); ?></time>
 
 	</header>
