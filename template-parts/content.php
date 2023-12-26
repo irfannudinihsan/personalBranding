@@ -1,4 +1,4 @@
-<article class="bg-white shadow-2xl my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>  >
+<article class="bg-white shadow-lg hover:-translate-y-3 duration-300 ease-in-out hover:shadow-blue-100 my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>  >
 
 	<header class="entry-header mb-4">
 

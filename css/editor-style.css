@@ -193,15 +193,14 @@
 .max-w-sm {
     max-width: 24rem
 }
+.flex-shrink-0 {
+    flex-shrink: 0
+}
 .flex-grow {
     flex-grow: 1
 }
 .-translate-x-1\/2 {
     --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-.translate-x-3 {
-    --tw-translate-x: 0.75rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 .transform {
@@ -392,8 +391,23 @@
     padding-top: 1.5rem;
     padding-bottom: 1.5rem
 }
+.pb-10 {
+    padding-bottom: 2.5rem
+}
+.pb-20 {
+    padding-bottom: 5rem
+}
 .pb-40 {
     padding-bottom: 10rem
+}
+.pl-2 {
+    padding-left: 0.5rem
+}
+.pr-20 {
+    padding-right: 5rem
+}
+.pt-20 {
+    padding-top: 5rem
 }
 .pt-40 {
     padding-top: 10rem
@@ -446,6 +460,9 @@
 }
 .font-light {
     font-weight: 300
+}
+.font-medium {
+    font-weight: 500
 }
 .font-normal {
     font-weight: 400
@@ -605,9 +622,33 @@ body {
     --tw-text-opacity: 1;
     color: rgb(100 116 139 / var(--tw-text-opacity))
 }
+.hover\:-translate-y-3:hover {
+    --tw-translate-y: -0.75rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+.hover\:text-blue-600:hover {
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235 / var(--tw-text-opacity))
+}
+.hover\:shadow-blue-100:hover {
+    --tw-shadow-color: #dbeafe;
+    --tw-shadow: var(--tw-shadow-colored)
+}
+:is(.dark .dark\:bg-blue-300) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(147 197 253 / var(--tw-bg-opacity))
+}
+:is(.dark .dark\:text-gray-400) {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity))
+}
 :is(.dark .dark\:text-slate-100) {
     --tw-text-opacity: 1;
     color: rgb(241 245 249 / var(--tw-text-opacity))
+}
+:is(.dark .dark\:hover\:text-gray-500:hover) {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity))
 }
 @media (min-width: 480px) {
     .xs\:w-\[360px\] {
@@ -624,8 +665,8 @@ body {
     .sm\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
-    .sm\:pb-60 {
-        padding-bottom: 15rem
+    .sm\:pb-20 {
+        padding-bottom: 5rem
     }
     .sm\:pt-60 {
         padding-top: 15rem
