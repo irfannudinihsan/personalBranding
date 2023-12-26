@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50 dark:bg-red-700 bg-opacity-70 relative -z-10">
+<section id="home" class="pt-40 bg-blue-50 bg-opacity-70 relative -z-10">
 	<div class="container mx-auto md:px-10 ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
@@ -47,7 +47,7 @@
 
 	<div class="container font-poppins">
 
-		<div class="mx-auto w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-200   ">
+		<div class="mx-auto w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg    ">
 
 			<div class="flex w-full justify-center my-4 snap-center">
 				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
@@ -123,7 +123,7 @@
 </section>
 
 <!-- section service -->
-<section id="service" class="pt-96 sm:pt-60 sm:pb-20 ">
+<section id="service" class="pt-96 sm:pt-60 sm:pb-60 ">
 
 	<div class="container font-poppins mx-auto md:px-10">
 
@@ -138,7 +138,7 @@
 
 
 			<!-- item grid -->
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="flex flex-col items-center  rounded-xl shadow-lg p-10">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
 				</div>
@@ -169,7 +169,7 @@
 				</div>
 
 			</div>
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="flex flex-col items-center  rounded-xl shadow-lg p-10">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
 				</div>
@@ -198,7 +198,7 @@
 				</div>
 
 			</div>
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="flex flex-col items-center  rounded-xl shadow-lg p-10">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
 				</div>
@@ -237,18 +237,22 @@
 
 </section>
 
-<section id="article" class="font-poppins pt-20 pb-20">
+<section id="customer" class="pt-40 font-poppins">
 
 	<div class="container mx-auto md:px-10">
+
 		<!-- title section -->
-		<div class="mb-4">
+		<div class="mb-10">
+
+
+
 			<p class="font-bold text-xl text-blue-900 poppins inline-block">New article</p>
 			<h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">Article</h1>
 		</div>
 
 
 
-		<div class=" grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-4 gap-3 ">
+		<div class="container mx-auto flex flex-wrap">
 
 			<!-- test index copy -->
 			<?php if (have_posts()) : ?>
@@ -537,7 +541,7 @@
 			<div class="w-full lg:w-1/2    ">
 
 				<div class="relative mt-10 -z-1 ">
-					<img src="<?php bloginfo('template_url') ?>/images/email.png" alt="irfannudin ihsan" class="max-w-full mx-auto pr-20 pl-2  ">
+					<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
 				</div>
 
 
