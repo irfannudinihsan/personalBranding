@@ -448,6 +448,7 @@
 
 					<div class=" mb-4">
 
+						<!-- for email -->
 						<div class="flex">
 							<img width="60px" class="rounded-full" src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan">
 
@@ -539,6 +540,8 @@
 
 			<!-- card customer -->
 			<div class="w-full lg:w-1/2    ">
+
+				<!-- for email -->
 
 				<div class="relative mt-10 -z-1 ">
 					<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="max-w-full mx-auto">
