@@ -3,6 +3,8 @@ const tailpress = require("@jeffreyvr/tailwindcss-tailpress");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
+    darkMode: 'class',
     content: [
         './*.php',
         './**/*.php',
@@ -10,7 +12,7 @@ module.exports = {
         './resources/js/*.js',
         './safelist.txt'
     ],
-    darkMode: 'class',
+    
     theme: {
         container: {
             center : true,

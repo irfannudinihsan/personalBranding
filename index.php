@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50 dark:bg-red-700 bg-opacity-70 relative -z-10">
+<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-300 bg-opacity-70 relative -z-10">
 	<div class="container mx-auto md:px-10 ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
@@ -444,6 +444,7 @@
 
 					<div class=" mb-4">
 
+						<!-- for email -->
 						<div class="flex">
 							<img width="60px" class="rounded-full" src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan">
 
@@ -536,8 +537,10 @@
 			<!-- card customer -->
 			<div class="w-full lg:w-1/2    ">
 
+				<!-- for email -->
+
 				<div class="relative mt-10 -z-1 ">
-					<img src="<?php bloginfo('template_url') ?>/images/email.png" alt="irfannudin ihsan" class="max-w-full mx-auto pr-20 pl-2  ">
+					<img src="<?php bloginfo('template_url') ?>/images/email.png" alt="irfannudin ihsan" class="max-w-full mx-auto pr-20 pl-2 pb-10  ">
 				</div>
 
 
@@ -547,7 +550,11 @@
 			<!-- card customer -->
 			<div class="w-full lg:w-1/2 mx-auto  ">
 
-				<form action="">
+
+			
+<?php echo do_shortcode('[wpforms id="4094"]');?>
+
+	<!-- 			<form action="">
 
 					<div class="mb-4">
 
@@ -593,7 +600,7 @@
 						<a href="" class="inline-block bg-blue-500 py-3 px-8 rounded-full text-white mb-3 font-semibold text-sm font-poppins">Submit</a>
 					</div>
 
-				</form>
+				</form> -->
 
 
 			</div>

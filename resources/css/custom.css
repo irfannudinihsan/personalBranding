@@ -19,8 +19,33 @@
     
 
 #dark-toggle:checked ~ label div.toggle-circle {
-    @apply translate-x-3
+    @apply translate-x-3;
 }
+
+
+
+
+
+.wpforms-field-label {
+    @apply font-poppins font-normal mb-1
+}
+
+
+.wpforms-field-required {
+    @apply border bg-gray-50 border-gray-300 w-full px-2 py-3 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500
+}
+
+
+
+.wpforms-field-medium {
+    @apply border bg-gray-50 border-gray-300 w-full px-2 py-3 block text-gray-900 text-sm  rounded-lg placeholder:text-slate-500
+}
+
+
+.wpforms-submit {
+    @apply inline-block bg-blue-500 py-3 px-8 rounded-full text-white mb-3 font-semibold text-sm font-poppins
+}
+
     
 }
 
