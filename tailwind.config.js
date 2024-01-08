@@ -10,7 +10,8 @@ module.exports = {
         './**/*.php',
         './resources/css/*.css',
         './resources/js/*.js',
-        './safelist.txt'
+        './safelist.txt',
+        './css/**/*.css',
     ],
     
     theme: {
