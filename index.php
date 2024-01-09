@@ -17,9 +17,9 @@
 					<br> <br> Thank you for your support and if you would like to collaborate.
 				</p>
 
-				<div class="mt-6 ">
-					<a href="" class="inline-block bg-blue-500 py-3 px-8 mx-1  rounded-full text-white mb-3 font-semibold text-sm font-poppins">Download CV</a>
-					<a href="" class="inline-block bg-white py-3 px-8 mx-1 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins">Contact</a>
+				<div class="mt-6 relative -z-20">
+					<a href="" class="inline-block bg-blue-500 py-3 px-8 mx-1  rounded-full text-white mb-3 font-semibold text-sm font-poppins ">Download CV</a>
+					<a href="https://drive.google.com/drive/folders/1GNn4Ubk0v8w9SyLQ_kYNxn75YxbbPISl?usp=drive_link" class="inline-block bg-white py-3 px-8 mx-1 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins" target="_blank">Contact</a>
 				</div>
 
 
@@ -27,7 +27,7 @@
 
 			<!-- image hero -->
 			<div class="w-full lg:w-1/3">
-				<div class="relative mt-10 -z-1 ">
+				<div class="relative mt-10 -z-20 ">
 
 					<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="w-full mx-auto">
 
@@ -38,11 +38,15 @@
 
 			</div>
 
+			
 		</div>
-</section>
+	</section>
+
 
 
 <!-- sosial media -->
+
+
 <section id="sosial media">
 
 	<div class="container font-poppins">
@@ -96,6 +100,8 @@
 				</div>
 
 			</div>
+
+			
 			<div class="flex w-full justify-center my-4 snap-center">
 				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
 
