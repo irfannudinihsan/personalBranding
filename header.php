@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html class=" scroll-smooth " <?php language_attributes(); ?> >
+<html class=" scroll-smooth " <?php language_attributes(); ?>>
 
-<head >
+<head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+	<link rel="stylesheet" href="./css/app.css" />
+
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-white text-gray-900 antialiased'); ?> >
+<body <?php body_class('bg-white text-gray-900 antialiased'); ?>>
 
 	<?php do_action('tailpress_site_before'); ?>
 
@@ -18,7 +20,7 @@
 
 		<?php do_action('tailpress_header'); ?>
 
-		<header class=" absolute left-0 w-full z-50 py-6 font-poppins bg-white ">
+		<header class=" absolute left-0 w-full z-50 py-10 font-poppins bg-white dark:bg-blue-950 ">
 
 			<div class="mx-auto container  ">
 				<div class="lg:flex mx-auto lg:justify-between lg:items-center  ">
@@ -56,7 +58,7 @@
 					wp_nav_menu(
 						array(
 							'container_id'    => 'primary-menu',
-							'container_class' => 'hidden font-normal text-blue-900 mt-4  text-lg  lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
+							'container_class' => 'hidden font-normal text-slate-800 mt-4  text-md  lg:mt-0 lg:p-0 lg:bg-transparent lg:block py-10 dark:text-white' ,
 							'menu_class'      => 'lg:flex  lg:-mx-4',
 							'theme_location'  => 'primary',
 							'li_class'        => 'lg:mx-4',
@@ -66,14 +68,17 @@
 					?>
 
 
-<!-- <button type="button" class="hs-dark-mode-active:hidden block hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500" data-hs-theme-click-value="dark">
-  <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
-</button>
-<button type="button" class="hs-dark-mode-active:block hidden hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500" data-hs-theme-click-value="light">
-  <svg class="flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 8a2 2 0 1 0 4 4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-</button>
- -->
-					 <div id="toggle" class="flex mt-4 lg:mt-0">
+
+<input data-hs-theme-switch class="relative w-[3.25rem] h-7 bg-gray-100 checked:bg-none checked:bg-blue-600 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 border border-transparent ring-1 ring-transparent focus:border-slate-700 focus:ring-slate-700 focus:outline-none appearance-none
+
+before:inline-block before:w-6 before:h-6 before:bg-white checked:before:bg-blue-200 before:translate-x-0 checked:before:translate-x-full before:shadow before:rounded-full before:transform before:ring-0 before:transition before:ease-in-out before:duration-200
+
+after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem] after:h-[.8125rem] after:bg-no-repeat after:bg-[right_center] after:bg-[length:.8125em_.8125em]  after:transform after:transition-all after:ease-in-out after:duration-200 after:opacity-70 checked:after:start-1.5 checked:after:end-auto" type="checkbox" id="darkSwitch">
+
+
+
+
+					<!--  <div id="toggle" class="flex mt-4 lg:mt-0">
 
 						<span class="mr-2 text-sm text-slate-500">light</span>
 						<input type="checkbox" class="hidden" id="dark-toggle">
@@ -90,7 +95,10 @@
 						<span class="mr-2 text-sm text-slate-500">dark</span>
 
 
-					</div>
+					</div> -->
+
+
+
 				</div>
 
 			</div>

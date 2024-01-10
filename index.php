@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-300 bg-opacity-70 relative -z-10">
+<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-950 bg-opacity-70 relative -z-10">
 	<div class="container mx-auto md:px-10 ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
 			<div class="w-full px-2 lg:w-2/3 flex flex-col justify-center lg:pr-10 xl:pr-40 2xl:pr-60 ">
-				<p class="font-semibold text-xl text-blue-900 poppins inline-block">Hi, Im</p>
+				<p class="font-semibold text-xl text-blue-900 poppins inline-block dark:text-slate-400">Hi, Im</p>
 				<h1 class="font-bold text-4xl lg:text-6xl text-blue-500 mb-4 font-poppins">Irfannudin Ihsan</h1>
 
 				<p class="font-semibold text-xl text-blue-900 mb-4 font-poppins px-2 p-1 w-fit rounded-md bg-blue-100 inline-block ">Web Developer</p>
@@ -41,6 +41,8 @@
 			
 		</div>
 	</section>
+
+
 
 
 
