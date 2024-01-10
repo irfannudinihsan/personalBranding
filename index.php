@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-950 bg-opacity-70 relative -z-10">
+<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-950 bg-opacity-70 relative -z-10 dark:bg-slate-900">
 	<div class="container mx-auto md:px-10 ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
@@ -49,11 +49,11 @@
 <!-- sosial media -->
 
 
-<section id="sosial media">
+<section id="sosial media ">
 
-	<div class="container font-poppins">
+	<div class="container font-poppins ">
 
-		<div class="mx-auto w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-200   ">
+		<div class="mx-auto dark:bg-slate-800 dark:shadow-slate-950  dark:shadow-slate-800 w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-50   ">
 
 			<div class="flex w-full justify-center my-4 snap-center">
 				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
@@ -64,8 +64,8 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900">Github </h1>
-					<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
+					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white ">Github </h1>
+					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
 
@@ -79,8 +79,8 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900">Dribbble </h1>
-					<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
+					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Dribbble </h1>
+					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 				</div>
 
@@ -96,8 +96,8 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900">Linkedin </h1>
-					<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
+					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Linkedin </h1>
+					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
 
@@ -114,8 +114,8 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900">Instagram </h1>
-					<p class="text-sm font-normal text-slate-500">irfannudinihsan</p>
+					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Instagram </h1>
+					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 
 				</div>
@@ -131,7 +131,7 @@
 </section>
 
 <!-- section service -->
-<section id="service" class="pt-96 sm:pt-60 sm:pb-20 ">
+<section id="service" class="pt-96 pb-20 sm:pt-60 sm:pb-20 dark:bg-slate-950 ">
 
 	<div class="container font-poppins mx-auto md:px-10">
 
@@ -146,13 +146,13 @@
 
 
 			<!-- item grid -->
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold  ">Web Developer</h1>
+					<h1 class="text-lg  font-semibold dark:text-white ">Web Developer</h1>
 				</div>
 
 				<div class="mb-3">
@@ -177,13 +177,13 @@
 				</div>
 
 			</div>
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold ">Web Design</h1>
+					<h1 class="text-lg  font-semibold dark:text-white ">Web Design</h1>
 				</div>
 
 				<div class="mb-3">
@@ -206,13 +206,13 @@
 				</div>
 
 			</div>
-			<div class="flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
 					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold ">UI/UX Design</h1>
+					<h1 class="text-lg  font-semibold dark:text-white">UI/UX Design</h1>
 				</div>
 
 				<div class="mb-3">
@@ -245,7 +245,7 @@
 
 </section>
 
-<section id="article" class="font-poppins pt-20 pb-20">
+<section id="article" class="font-poppins pt-20 pb-20 dark:bg-slate-950">
 
 	<div class="container mx-auto md:px-10">
 		<!-- title section -->
@@ -287,7 +287,7 @@
 
 <!-- section Achivement -->
 
-<section id="contact" class="pt-40 pb-40 font-poppins bg-[#FBFBFB] ">
+<section id="contact" class="pt-40 pb-40 font-poppins bg-[#FBFBFB] dark:bg-slate-900">
 
 	<div class="container mx-auto md:px-10">
 
@@ -321,7 +321,7 @@
 				<div class="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-16 gap-y-16 ">
 
 					<!-- item grid -->
-					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative ">
+					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800 ">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
 								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-white.svg" alt="">
@@ -331,7 +331,7 @@
 
 						<div class="text-center mt-10  ">
 
-							<h2 class="text-lg  font-semibold lg:text-xl  ">Email</h2>
+							<h2 class="text-lg  font-semibold lg:text-xl dark:text-white ">Email</h2>
 							<p class="text-slate-400 text-sm text-center lg:text-lg">irfannudinihsan@gmail.com</p>
 
 						</div>
@@ -339,7 +339,7 @@
 					</div>
 					<!-- end item grid -->
 					<!-- item grid -->
-					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative ">
+					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
 								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-white.svg" alt="">
@@ -349,7 +349,7 @@
 
 						<div class="text-center mt-10  ">
 
-							<h2 class="text-lg  font-semibold lg:text-xl  ">Whatsapp</h2>
+							<h2 class="text-lg  font-semibold lg:text-xl dark:text-white  ">Whatsapp</h2>
 							<p class="text-slate-400 text-sm text-center lg:text-lg">+628-5831-0084-76</p>
 
 						</div>
@@ -357,7 +357,7 @@
 					</div>
 					<!-- end item grid -->
 					<!-- item grid -->
-					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative ">
+					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
 								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-white.svg" alt="">
@@ -367,7 +367,7 @@
 
 						<div class="text-center mt-10  ">
 
-							<h2 class="text-lg  font-semibold lg:text-xl   ">Linkedin</h2>
+							<h2 class="text-lg  font-semibold lg:text-xl  dark:text-white ">Linkedin</h2>
 							<p class="text-slate-400 text-sm text-center lg:text-lg">irfanudinihsan</p>
 
 						</div>
@@ -375,7 +375,7 @@
 					</div>
 					<!-- end item grid -->
 					<!-- item grid -->
-					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative ">
+					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
 								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/instagram.svg" alt="">
@@ -385,7 +385,7 @@
 
 						<div class="text-center mt-10  ">
 
-							<h2 class="text-lg  font-semibold lg:text-xl  ">Instagram</h2>
+							<h2 class="text-lg  font-semibold lg:text-xl dark:text-white ">Instagram</h2>
 							<p class="text-slate-400 text-sm text-center lg:text-lg">irfannudinihsan</p>
 
 						</div>
@@ -416,7 +416,7 @@
 
 
 
-<section id="customer" class="pt-40 font-poppins">
+<section id="customer" class="pt-40 font-poppins dark:bg-slate-950">
 
 	<div class="container mx-auto md:px-10">
 
@@ -434,7 +434,7 @@
 			<!-- card customer -->
 			<div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-				<div class="p-6 rounded-xl     mb-6 shadow-2xl shadow-blue-100">
+				<div class="p-6 rounded-xl  dark:bg-slate-800    mb-6 shadow-2xl shadow-slate-900">
 
 					<div class="flex mb-4">
 
@@ -446,7 +446,7 @@
 
 					</div>
 
-					<p class=" mb-4 text-slate-500">
+					<p class=" mb-4 text-slate-400">
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quisquam qui! Placeat voluptas consequuntur explicabo?
 					</p>
 
@@ -458,7 +458,7 @@
 
 
 							<div class="mx-1">
-								<h1 class="text-lg font-bold ">Jonn Canedy </h1>
+								<h1 class="text-lg font-bold dark:text-white ">Jonn Canedy </h1>
 								<p class="text-slate-400 text-sm text-cente">Web Developer</p>
 
 
@@ -478,7 +478,7 @@
 			<!-- card customer -->
 			<div class="w-full lg:w-1/2 mx-auto px-2  ">
 
-				<div class="p-6 rounded-xl     mb-6 shadow-2xl shadow-blue-100">
+				<div class="p-6 rounded-xl dark:bg-slate-800  shadow-slate-900  mb-6 shadow-2xl shadow-blue-100">
 
 					<div class="flex mb-4">
 
@@ -490,7 +490,7 @@
 
 					</div>
 
-					<p class=" mb-4 text-slate-500">
+					<p class=" mb-4 text-slate-400">
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, quisquam qui! Placeat voluptas consequuntur explicabo?
 					</p>
 
@@ -503,7 +503,7 @@
 
 
 							<div class="mx-1">
-								<h1 class="text-lg font-bold ">Jonn Canedy </h1>
+								<h1 class="text-lg font-bold dark:text-white">Jonn Canedy </h1>
 								<p class="text-slate-400 text-sm text-cente">Web Developer</p>
 
 							</div>
@@ -526,7 +526,7 @@
 </section>
 
 
-<section id="" class="pt-40">
+<section id="" class="pt-40 dark:bg-slate-950">
 
 	<div class="container mx-auto md:px-10">
 

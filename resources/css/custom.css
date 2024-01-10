@@ -27,8 +27,9 @@
 
 
 .wpforms-field-label {
-    @apply font-poppins font-normal mb-1
-}
+    @apply font-poppins font-normal mb-1;
+    @apply dark:text-white;
+}   
 
 
 .wpforms-field-required {

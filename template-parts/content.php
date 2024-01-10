@@ -1,11 +1,11 @@
-<article class="bg-white shadow-lg hover:-translate-y-3 duration-300 ease-in-out hover:shadow-blue-100 my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>  >
+<article class="bg-white dark:bg-slate-800 shadow-lg dark:bg-slate-800 dark:shadow-slate-900 hover:-translate-y-3 duration-300 ease-in-out hover:shadow-blue-100 my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>  >
 
 	<header class="entry-header mb-4">
 
 <?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
 
 
-		<?php the_title( sprintf( '<h2 class="entry-title text-lg   md:text-2xl font-normal leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<?php the_title( sprintf( '<h2 class="entry-title text-lg  dark:text-white md:text-2xl font-normal leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-slate-500"><?php echo get_the_date(); ?></time>
 
 	</header>
@@ -23,7 +23,7 @@
 
 	<?php else : ?>
 
-		<div class="entry-content text-slate-600 text-sm">
+		<div class="entry-content text-slate-400 text-sm">
 			<?php
 			/* translators: %s: Name of current post */
 			the_content(
