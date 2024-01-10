@@ -71,7 +71,7 @@
 
 
 
-<input data-hs-theme-switch class="relative w-[3.25rem] mx-2 h-7 bg-slate-50 checked:bg-none checked:bg-slate-100 border-2 border-yellow-400 checked:border-blue-500 rounded-full cursor-pointer transition-colors ease-in-out duration-200 border border-transparent ring-1 ring-transparent focus:border-slate-700 focus:ring-slate-700 focus:outline-none appearance-none
+<input data-hs-theme-switch class="relative w-[3.25rem] mx-2 h-7 bg-slate-50 checked:bg-none checked:bg-transparant border-2 border-yellow-400 checked:border-blue-500 rounded-full cursor-pointer transition-colors ease-in-out duration-200 border border-transparent ring-1 ring-transparent focus:border-slate-700 focus:ring-slate-700 focus:outline-none appearance-none
 
 before:inline-block before:w-6 before:h-6 before:bg-yellow-400 checked:before:bg-blue-500 before:translate-x-0 checked:before:translate-x-full before:shadow before:rounded-full before:transform before:ring-0 before:transition before:ease-in-out before:duration-200
 
