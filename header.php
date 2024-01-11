@@ -112,7 +112,7 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
 
 		</header>
 
-		<div id="content" class="site-content dark:bg-slate-950 flex-grow">
+		<div id="content" class="site-content flex-grow">
 
 			<?php do_action('tailpress_content_start'); ?>
 

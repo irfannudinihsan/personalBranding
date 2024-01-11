@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50 dark:bg-blue-950 bg-opacity-70 relative -z-10 dark:bg-slate-900">
+<section id="home" class="pt-40 bg-blue-50  bg-opacity-70 relative  dark:bg-slate-900">
 	<div class="container mx-auto md:px-10 ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
@@ -17,7 +17,7 @@
 					<br> <br> Thank you for your support and if you would like to collaborate.
 				</p>
 
-				<div class="mt-6 relative -z-20">
+				<div class="mt-6 relative ">
 					<a href="" class="inline-block bg-blue-500 py-3 px-8 mx-1  rounded-full text-white mb-3 font-semibold text-sm font-poppins ">Download CV</a>
 					<a href="https://drive.google.com/drive/folders/1GNn4Ubk0v8w9SyLQ_kYNxn75YxbbPISl?usp=drive_link" class="inline-block bg-white py-3 px-8 mx-1 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins" target="_blank">Contact</a>
 				</div>
@@ -27,12 +27,12 @@
 
 			<!-- image hero -->
 			<div class="w-full lg:w-1/3">
-				<div class="relative mt-10 -z-20 ">
+				<div class="relative mt-10 mx-auto ">
 
-					<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="w-full mx-auto">
+					<img  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="w-full mx-auto z-10 absolute bottom-0 xs:w-5/6 ">
 
-					<span class="absolute  w-[240px] xs:w-[360px] bottom-0 -z-10 w-xl left-1/2 -translate-x-1/2">
-						<img class="w-full" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
+					<span class=" bottom-0 w-[240px] xs:w-[360px] z-0 w-xl left-1/2 -translate-x-1/2">
+						<img class="w-5/6 mx-auto mt-20" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
 					</span>
 				</div>
 
