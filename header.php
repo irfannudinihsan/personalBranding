@@ -82,30 +82,6 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
 
 
 
-
-
-
-					<!--  <div id="toggle" class="flex mt-4 lg:mt-0">
-
-						<span class="mr-2 text-sm text-slate-500">light</span>
-						<input type="checkbox" class="hidden" id="dark-toggle">
-						<label for="dark-toggle">
-
-							<div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-
-								<div class="toggle-circle h-4 w-4 bg-white rounded-full transition duration-300 ease-in-out">
-
-
-								</div>
-							</div>
-						</label>
-						<span class="mr-2 text-sm text-slate-500">dark</span>
-
-
-					</div> -->
-
-
-
 				</div>
 
 			</div>
