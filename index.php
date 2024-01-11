@@ -19,7 +19,7 @@
 
 				<div class="mt-6 relative ">
 					<a href="" class="inline-block bg-blue-500 py-3 px-8 mx-1  rounded-full text-white mb-3 font-semibold text-sm font-poppins ">Download CV</a>
-					<a href="https://drive.google.com/drive/folders/1GNn4Ubk0v8w9SyLQ_kYNxn75YxbbPISl?usp=drive_link" class="inline-block bg-white py-3 px-8 mx-1 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins" target="_blank">Contact</a>
+					<a href="https://drive.google.com/drive/folders/1GNn4Ubk0v8w9SyLQ_kYNxn75YxbbPISl?usp=drive_link" class="inline-block bg-transparant py-3 px-8 mx-1 rounded-full text-blue-500  border-2 border-blue-500 text-sm font-semibold font-poppins" target="_blank">Contact</a>
 				</div>
 
 
@@ -27,12 +27,12 @@
 
 			<!-- image hero -->
 			<div class="w-full lg:w-1/3">
-				<div class="relative mt-10 mx-auto ">
+				<div class="relative w-full">
 
-					<img  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="w-full mx-auto z-10 absolute bottom-0 xs:w-5/6 ">
+					<img  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="xs:w-4/6 sm:w-4/6 md:w-4/6 lg:w-full xs:left-1/2 xs:transform xs:-translate-x-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 md:left-1/2 md:transform md:-translate-x-1/2 z-10 absolute bottom-0 ">
 
 					<span class=" bottom-0 w-[240px] xs:w-[360px] z-0 w-xl left-1/2 -translate-x-1/2">
-						<img class="w-5/6 mx-auto mt-20" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
+						<img class="w-5/6 mx-auto mt-20 xs:w-4/6" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
 					</span>
 				</div>
 
@@ -56,15 +56,15 @@
 		<div class="mx-auto dark:bg-slate-800 dark:shadow-slate-950  dark:shadow-slate-800 w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-50   ">
 
 			<div class="flex w-full justify-center my-4 snap-center">
-				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+				<div class="p-3 bg-blue-00 rounded-full mx-1 ">
 
-					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/github.svg" alt="">
+					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/github.svg" alt="" class="fill-blue-500">
 
 
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white ">Github </h1>
+					<h1 class="text-lg font-bold text-blue-500 font-blue-900 dark:text-white ">Github </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
@@ -79,7 +79,7 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Dribbble </h1>
+					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Dribbble </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 				</div>
@@ -96,7 +96,7 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Linkedin </h1>
+					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Linkedin </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
@@ -114,7 +114,7 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-900 font-blue-900 dark:text-white">Instagram </h1>
+					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Instagram </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 

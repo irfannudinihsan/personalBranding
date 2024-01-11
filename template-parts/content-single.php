@@ -6,7 +6,7 @@
 		<time class="text-sm text-slate-500" datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>
 	</header>
 
-	<div class="entry-content text-slate-600 text-sm">
+	<div class="entry-content text-slate-400 text-sm">
 
 		<?php the_content(); ?>
 
