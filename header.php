@@ -73,13 +73,16 @@
 
 
 
+<div class="xs:mt-1 sm:mt-1 md:mt-1 lg:mt-1 xl:mt-0">
+
+
 <input data-hs-theme-switch class="relative w-[3.25rem] mx-2 h-7 bg-slate-50 checked:bg-none checked:bg-transparant border-2 border-yellow-400 checked:border-blue-500 rounded-full cursor-pointer transition-colors ease-in-out duration-200 border border-transparent ring-1 ring-transparent focus:border-slate-700 focus:ring-slate-700 focus:outline-none appearance-none
 
 before:inline-block before:w-6 before:h-6 before:bg-yellow-400 checked:before:bg-blue-500 before:translate-x-0 checked:before:translate-x-full before:shadow before:rounded-full before:transform before:ring-0 before:transition before:ease-in-out before:duration-200
 
 after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem] after:h-[.8125rem] after:bg-no-repeat after:bg-[right_center] after:bg-[length:.8125em_.8125em]  after:transform after:transition-all after:ease-in-out after:duration-200 after:opacity-70 checked:after:start-1.5 checked:after:end-auto" type="checkbox" id="darkSwitch">
 
-
+</div>
 
 
 
@@ -112,7 +115,7 @@ after:absolute after:end-1.5 after:top-[calc(50%-0.40625rem)] after:w-[.8125rem]
 
 		</header>
 
-		<div id="content" class="site-content flex-grow">
+		<div id="content" class="site-content flex-grow dark:bg-slate-950 pt-40">
 
 			<?php do_action('tailpress_content_start'); ?>
 
