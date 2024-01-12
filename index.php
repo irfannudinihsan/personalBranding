@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <!-- section hero -->
-<section id="home" class="pt-40 bg-blue-50  bg-opacity-70 relative  dark:bg-slate-900">
-	<div class="container mx-auto md:px-10 ">
+<section id="home" class="pt-40 bg-blue-50  bg-opacity-70 relative  dark:bg-slate-900 font-poppins">
+	<div class="container mx-auto  ">
 		<div class="flex flex-wrap center">
 			<!-- description hero -->
 			<div class="w-full px-2 lg:w-2/3 flex flex-col justify-center lg:pr-10 xl:pr-40 2xl:pr-60 ">
@@ -12,7 +12,7 @@
 				<p class="font-semibold text-xl text-blue-900 mb-4 font-poppins px-2 p-1 w-fit rounded-md bg-blue-100 inline-block ">Web Developer</p>
 
 
-				<p class="text-slate-400 font-poppins text-sm font-normal lg:me-10 ">You call me Irfan. I am interested in Web Developer and UI/UX Designer. I usually create designs using Figma and then implement them in HTML, CSS, Javascript, React JS, or Wordpress.
+				<p class="text-slate-500 font-poppins text-sm font-normal lg:me-10 ">You call me Irfan. I am interested in Web Developer and UI/UX Designer. I usually create designs using Figma and then implement them in HTML, CSS, Javascript, React JS, or Wordpress.
 
 					<br> <br> Thank you for your support and if you would like to collaborate.
 				</p>
@@ -26,21 +26,21 @@
 			</div>
 
 			<!-- image hero -->
-			<div class="w-full lg:w-1/3">
-				<div class="relative w-full">
+			<div class="w-full lg:mt-20 xl:mt-0 lg:w-1/3">
+				<div class="relative w-full bottom-0">
 
-					<img  src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="xs:w-4/6 sm:w-4/6 md:w-4/6 lg:w-full xs:left-1/2 xs:transform xs:-translate-x-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 md:left-1/2 md:transform md:-translate-x-1/2 z-10 absolute bottom-0 ">
+					<img src="<?php bloginfo('template_url') ?>/images/photo.png" alt="irfannudin ihsan" class="xs:w-4/6 sm:w-4/6 md:w-4/6 lg:w-full xs:left-1/2 xs:transform xs:-translate-x-1/2 sm:left-1/2 sm:transform sm:-translate-x-1/2 md:left-1/2 md:transform md:-translate-x-1/2 z-10 absolute bottom-0 ">
 
 					<span class=" bottom-0 w-[240px] xs:w-[360px] z-0 w-xl left-1/2 -translate-x-1/2">
-						<img class="w-5/6 mx-auto mt-20 xs:w-4/6" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
+						<img class="w-5/6 mx-auto mt-20 xs:w-4/6 lg:w-5/6" src="<?php bloginfo('template_url') ?>/images/blob_blue.svg">
 					</span>
 				</div>
 
 			</div>
 
-			
+
 		</div>
-	</section>
+</section>
 
 
 
@@ -51,12 +51,12 @@
 
 <section id="sosial media ">
 
-	<div class="container font-poppins ">
+	<div class="container font-poppins  ">
 
-		<div class="mx-auto dark:bg-slate-800 dark:shadow-slate-950  dark:shadow-slate-800 w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-8 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-12 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-50   ">
+		<div class="mx-auto dark:bg-slate-800 dark:shadow-slate-950  dark:shadow-slate-800 w-full md:flex flew-wrap lg:w-[1200px] bg-white p-4 lg:p-5 rounded-none lg:rounded-full lg:-mt-6 xl:-mt-9 - z-10 absolute left-1/2 transform -translate-x-1/2 shadow-lg shadow-slate-50   ">
 
 			<div class="flex w-full justify-center my-4 snap-center">
-				<div class="p-3 bg-blue-00 rounded-full mx-1 ">
+				<div class="p-3 bg-blue-600 rounded-full mx-1 ">
 
 					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/github.svg" alt="" class="fill-blue-500">
 
@@ -64,14 +64,14 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-500 font-blue-900 dark:text-white ">Github </h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white ">Github </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
 
 			</div>
 			<div class="flex w-full justify-center my-4 snap-center">
-				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+				<div class="p-3 bg-blue-600 rounded-full mx-1 ">
 
 					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/dribble.svg" alt="">
 
@@ -79,14 +79,14 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Dribbble </h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white">Dribbble </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 				</div>
 
 			</div>
 			<div class="flex w-full justify-center my-4 snap-center">
-				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+				<div class="p-3 bg-blue-600 rounded-full mx-1 ">
 
 					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/linkedin.svg" alt="">
 
@@ -96,16 +96,16 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Linkedin </h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white">Linkedin </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100 ">irfannudinihsan</p>
 
 				</div>
 
 			</div>
 
-			
+
 			<div class="flex w-full justify-center my-4 snap-center">
-				<div class="p-3 bg-blue-900 rounded-full mx-1 ">
+				<div class="p-3 bg-blue-600 rounded-full mx-1 ">
 
 					<img width="28" height="28" src="<?php bloginfo('template_url') ?>/images/instagram.svg" alt="ig">
 
@@ -114,7 +114,7 @@
 				</div>
 
 				<div class="mx-1">
-					<h1 class="text-lg font-bold text-blue-500  font-blue-900 dark:text-white">Instagram </h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white">Instagram </h1>
 					<p class="text-sm font-normal text-slate-500 dark:text-blue-100">irfannudinihsan</p>
 
 
@@ -133,26 +133,26 @@
 <!-- section service -->
 <section id="service" class="pt-96 pb-20 sm:pt-60 sm:pb-20 dark:bg-slate-950 ">
 
-	<div class="container font-poppins mx-auto md:px-10">
+	<div class="container font-poppins mx-auto ">
 
 		<div class="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-4 gap-3">
 
 			<!-- item grid -->
 			<div class="">
-				<p class="font-semibold text-xl text-blue-900 poppins inline-block">Service</p>
-				<h2 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">services for collaboration</h2>
+				<p class="font-medium text-xl text-blue-950 poppins inline-block">Service</p>
+				<h2 class="font-medium text-3xl md:text-3xl lg:text-3xl text-blue-500 mb-4 font-poppins">services for collaboration</h2>
 
 			</div>
 
 
 			<!-- item grid -->
-			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-lg p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
+					<img width="40" height="40" src="<?php bloginfo('template_url') ?>/images/web.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold dark:text-white ">Web Developer</h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white ">Web Developer</h1>
 				</div>
 
 				<div class="mb-3">
@@ -165,25 +165,25 @@
 
 
 
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/js.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/rj.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/lrv.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
+					<img class="mx-2 my-2 " width="28" height="28" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
+					<img class="mx-2 my-2 " width="28" height="28" src="<?php bloginfo('template_url') ?>/images/js.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/rj.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/lrv.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
 
 				</div>
 
 			</div>
-			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-lg p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
+					<img width="40" height="40" src="<?php bloginfo('template_url') ?>/images/webdesign.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold dark:text-white ">Web Design</h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white ">Web Design</h1>
 				</div>
 
 				<div class="mb-3">
@@ -196,23 +196,23 @@
 
 
 
-					<img class="mx-2 my-2 " width="32" height="32" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="28" src="<?php bloginfo('template_url') ?>/images/wf.svg" alt="">
+					<img class="mx-2 my-2 " width="28" height="28" src="<?php bloginfo('template_url') ?>/images/html.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/css.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/bt.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/tw.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/wp.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/wf.svg" alt="">
 
 				</div>
 
 			</div>
-			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-2xl p-10  shadow-slate-200">
+			<div class="dark:bg-slate-800 dark:shadow-slate-950 flex flex-col items-center  rounded-xl shadow-lg p-10  shadow-slate-200">
 				<div class="p-3 bg-blue-100 rounded-full  inline-block mb-3">
-					<img width="56" height="56" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
+					<img width="40" height="40" src="<?php bloginfo('template_url') ?>/images/ui.svg" alt="">
 				</div>
 
 				<div class="mb-3 px-2 ">
-					<h1 class="text-lg  font-semibold dark:text-white">UI/UX Design</h1>
+					<h1 class="text-lg font-medium text-slate-800 dark:text-white">UI/UX Design</h1>
 				</div>
 
 				<div class="mb-3">
@@ -225,9 +225,9 @@
 
 
 
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/fg.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/cv.svg" alt="">
-					<img class="mx-2 my-2" width="32" height="32" src="<?php bloginfo('template_url') ?>/images/ai.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/fg.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/cv.svg" alt="">
+					<img class="mx-2 my-2" width="28" height="28" src="<?php bloginfo('template_url') ?>/images/ai.svg" alt="">
 
 
 				</div>
@@ -247,16 +247,19 @@
 
 <section id="article" class="font-poppins pt-20 pb-20 dark:bg-slate-950">
 
-	<div class="container mx-auto md:px-10">
+	<div class="container mx-auto ">
 		<!-- title section -->
 		<div class="mb-4">
-			<p class="font-bold text-xl text-blue-900 poppins inline-block">New article</p>
-			<h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">Article</h1>
+
+
+			<p class="font-medium text-xl text-blue-950 poppins inline-block">New article</p>
+			<h2 class="font-medium text-3xl md:text-3xl lg:text-3xl text-blue-500 mb-4 font-poppins">Article</h2>
+
 		</div>
 
 
 
-		<div class=" grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-4 gap-3 ">
+		<div class=" grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-3 gap-3 ">
 
 			<!-- test index copy -->
 			<?php if (have_posts()) : ?>
@@ -287,16 +290,16 @@
 
 <!-- section Achivement -->
 
-<section id="contact" class="pt-40 pb-40 font-poppins bg-[#FBFBFB] dark:bg-slate-900">
+<section id="contact" class="pt-40 pb-40 font-poppins bg-blue-50  bg-opacity-90  dark:bg-slate-900">
 
-	<div class="container mx-auto md:px-10">
+	<div class="container mx-auto ">
 
 		<!-- title section -->
 		<div class="flex flex-wrap center">
 
 			<!-- description section -->
 			<div class="w-full lg:w-1/3  ">
-				<h2 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">
+				<h2 class="font-medium text-3xl md:text-3xl lg:text-3xl text-blue-500 mb-4 font-poppins">
 
 					If you need Webdev, contact me
 				</h2>
@@ -321,10 +324,10 @@
 				<div class="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-x-16 gap-y-16 ">
 
 					<!-- item grid -->
-					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800 ">
+					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-white bg-white relative dark:bg-slate-800 ">
 						<div class="absolute -top-8">
-							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-white.svg" alt="">
+							<div class="p-6 bg-white rounded-full mx-auto inline-block mb-2">
+								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-blue.svg" alt="">
 							</div>
 
 						</div>
@@ -342,7 +345,7 @@
 					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-white.svg" alt="">
+								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-blue.svg" alt="">
 							</div>
 
 						</div>
@@ -360,7 +363,7 @@
 					<div class="flex flex-col items-center justify-center rounded-xl aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-white.svg" alt="">
+								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-blue.svg" alt="">
 							</div>
 
 						</div>
@@ -378,7 +381,7 @@
 					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-blue-100 bg-opacity-50 relative dark:bg-slate-800">
 						<div class="absolute -top-8">
 							<div class="p-6 bg-blue-900 rounded-full mx-auto inline-block mb-2">
-								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/instagram.svg" alt="">
+								<img class="w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/ig-blue.svg" alt="">
 							</div>
 
 						</div>
@@ -418,7 +421,7 @@
 
 <section id="customer" class="pt-40 font-poppins dark:bg-slate-950">
 
-	<div class="container mx-auto md:px-10">
+	<div class="container mx-auto ">
 
 		<!-- title section -->
 		<div class="mb-10">
@@ -528,7 +531,7 @@
 
 <section id="" class="pt-40 dark:bg-slate-950">
 
-	<div class="container mx-auto md:px-10">
+	<div class="container mx-auto ">
 
 		<!-- title section -->
 		<div class="">
@@ -559,10 +562,10 @@
 			<div class="w-full lg:w-1/2 mx-auto  ">
 
 
-			
-<?php echo do_shortcode('[wpforms id="4094"]');?>
 
-	<!-- 			<form action="">
+				<?php echo do_shortcode('[wpforms id="4094"]'); ?>
+
+				<!-- 			<form action="">
 
 					<div class="mb-4">
 
