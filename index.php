@@ -168,7 +168,7 @@
 					<h1 class="text-lg font-semibold text-slate-700 dark:text-white text-center">Web Developer</h1>
 				</div>
 
-				
+
 
 				<div class="mb-3">
 
@@ -269,14 +269,21 @@
 
 	<div class="container mx-auto ">
 		<!-- title section -->
-		<div class="mb-4">
+		<div class="mb-4 flex-none md:flex justify-between ">
 
+			<div>
 
+				<h2 class="font-semibold text-3xl md:text-3xl lg:text-3xl text-blue-400 mb-4 font-poppins">Work</h2>
+				<p class="text-slate-500 font-poppins text-sm font-normal ">
+					Check the projects i've worked on
+				</p>
 
-			<h2 class="font-semibold text-3xl md:text-3xl lg:text-3xl text-blue-400 mb-4 font-poppins">Work</h2>
-			<p class="text-slate-500 font-poppins text-sm font-normal ">
-				Check the projects i've worked on
-			</p>
+			</div>
+
+			<div class="mt-6 ">
+				<a href="http://latihan1.local/work/" target="blank" class="inline-block bg-blue-400 hover:bg-blue-600 duration-300 py-3 px-8  rounded-lg text-white mb-3 font-semibold text-sm font-poppins ">Work More</a>
+
+			</div>
 
 		</div>
 
@@ -327,7 +334,7 @@
 					My Contact
 				</h2>
 
-				
+
 				<p class="text-slate-500 font-poppins text-sm font-normal ">
 					If you need Web Developer or UI/UX Designer, contact me
 				</p>
@@ -344,20 +351,22 @@
 
 					<!-- item grid -->
 					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-white  relative dark:bg-slate-800  ">
-						
-						<div class="absolute -top-8">
-						<a href="mailto:irfannudinihsan56@gmail.com" target="_blank">
-							<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
-								<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-blue.svg" alt="">
-							</div>
 
-						</a>	
+						<div class="absolute -top-8">
+							<a href="mailto:irfannudinihsan56@gmail.com" target="_blank">
+								<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
+									<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/email-blue.svg" alt="">
+								</div>
+
+							</a>
 						</div>
 
 						<div class="text-center mt-10 ">
 
 							<h2 class="text-lg font-semibold text-slate-700 lg:mt-4 lg:text-lg xl:text-xl dark:text-white ">Email</h2>
-						<a href="mailto:irfannudinihsan56@gmail.com" target="_blank"><p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfannudinihsan56@gmail.com</p></a>	
+							<a href="mailto:irfannudinihsan56@gmail.com" target="_blank">
+								<p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfannudinihsan56@gmail.com</p>
+							</a>
 
 						</div>
 
@@ -369,20 +378,22 @@
 					<!-- wa new -->
 					<!-- item grid -->
 					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-white  relative dark:bg-slate-800  ">
-						
-						<div class="absolute -top-8">
-						<a href="https://wa.me/6285831008476" target="_blank">
-							<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
-								<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-blue.svg" alt="">
-							</div>
 
-						</a>	
+						<div class="absolute -top-8">
+							<a href="https://wa.me/6285831008476" target="_blank">
+								<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
+									<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/wa-blue.svg" alt="">
+								</div>
+
+							</a>
 						</div>
 
 						<div class="text-center mt-10 ">
 
 							<h2 class="text-lg font-semibold text-slate-700 lg:mt-4 lg:text-lg xl:text-xl dark:text-white ">Whatsapp</h2>
-						<a href="https://wa.me/6285831008476" target="_blank"><p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">+628-5831-0084-76</p></a>	
+							<a href="https://wa.me/6285831008476" target="_blank">
+								<p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">+628-5831-0084-76</p>
+							</a>
 
 						</div>
 
@@ -393,20 +404,22 @@
 					<!-- linkedin new -->
 					<!-- item grid -->
 					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-white  relative dark:bg-slate-800  ">
-						
-						<div class="absolute -top-8">
-						<a href="https://www.linkedin.com/in/irfannudin-ihsan" target="_blank">
-							<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
-								<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-blue.svg" alt="">
-							</div>
 
-						</a>	
+						<div class="absolute -top-8">
+							<a href="https://www.linkedin.com/in/irfannudin-ihsan" target="_blank">
+								<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
+									<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/linkedin-blue.svg" alt="">
+								</div>
+
+							</a>
 						</div>
 
 						<div class="text-center mt-10 ">
 
 							<h2 class="text-lg font-semibold text-slate-700 lg:mt-4 lg:text-lg xl:text-xl dark:text-white ">LinkedIn</h2>
-						<a href="https://www.linkedin.com/in/irfannudin-ihsan" target="_blank"><p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfanudinihsan</p></a>	
+							<a href="https://www.linkedin.com/in/irfannudin-ihsan" target="_blank">
+								<p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfanudinihsan</p>
+							</a>
 
 						</div>
 
@@ -416,27 +429,29 @@
 					<!-- ig new -->
 					<!-- item grid -->
 					<div class="flex flex-col items-center justify-center rounded-xl  aspect-video bg-white  relative dark:bg-slate-800  ">
-						
-						<div class="absolute -top-8">
-						<a href="https://www.instagram.com/irfannudinihsan/" target="_blank">
-							<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
-								<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/ig-blue.svg" alt="">
-							</div>
 
-						</a>	
+						<div class="absolute -top-8">
+							<a href="https://www.instagram.com/irfannudinihsan/" target="_blank">
+								<div class="p-6 bg-blue-200 hover:bg-blue-600 rounded-full mx-auto inline-block mb-2">
+									<img class="w-10 xs:w-16 xl:w-20" src="<?php bloginfo('template_url') ?>/images/ig-blue.svg" alt="">
+								</div>
+
+							</a>
 						</div>
 
 						<div class="text-center mt-10 ">
 
 							<h2 class="text-lg font-semibold text-slate-700 lg:mt-4 lg:text-lg xl:text-xl dark:text-white ">Instagram</h2>
-						<a href="https://www.instagram.com/irfannudinihsan/" target="_blank"><p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfannudinihsan</p></a>	
+							<a href="https://www.instagram.com/irfannudinihsan/" target="_blank">
+								<p class="text-slate-400 text-sm text-center lg:text-md xl:text-lg">irfannudinihsan</p>
+							</a>
 
 						</div>
 
 					</div>
 					<!-- end item grid -->
 
-				
+
 
 
 
@@ -466,15 +481,6 @@
 <section id="" class="pt-40 dark:bg-slate-950">
 
 	<div class="container mx-auto ">
-
-		<!-- title section -->
-		<div class="">
-
-
-
-			<p class="font-semibold text-xl text-blue-900 poppins inline-block">Subcribe</p>
-			<h1 class="font-bold text-3xl md:text-4xl lg:text-4xl text-blue-500 mb-4 font-poppins">Contact Us </h1>
-		</div>
 
 		<div class="flex flex-wrap center justify-between">
 

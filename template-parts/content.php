@@ -5,8 +5,21 @@
 <?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
 
 
-		<?php the_title( sprintf( '<h2 class="entry-title text-lg  dark:text-white md:text-2xl font-normal leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-		<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-slate-500"><?php echo get_the_date(); ?></time>
+		<?php the_title( sprintf( '<h2 class="entry-title text-lg  dark:text-white md:text-2xl font-semibold text-slate-700 leading-tight "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); 
+		
+		
+		
+		?>
+
+<?php
+
+$categories_list = get_the_category_list(' ');
+
+if ($categories_list) {
+    echo '<p class=" font-poppins font-medium rounded-md px-2 mt-2 py-1 w-fit bg-blue-50 text-blue-400 ">' . $categories_list . '</p>';
+}
+?>
+		
 
 	</header>
 
@@ -26,12 +39,7 @@
 		<div class="entry-content text-slate-400 text-sm">
 			<?php
 			/* translators: %s: Name of current post */
-			the_content(
-				sprintf(
-					__( 'Continue reading %s', 'tailpress' ),
-					the_title( '<span class="screen-reader-text">"', '"</span>', false )
-				)
-			);
+			
 
 			wp_link_pages(
 				array(
