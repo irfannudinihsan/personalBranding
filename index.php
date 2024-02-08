@@ -320,7 +320,7 @@
 
 <!-- section Contact -->
 
-<section id="contact" class="pt-20 pb-40 font-poppins bg-blue-50  bg-opacity-90  dark:bg-slate-900">
+<section id="contact" class="pt-20 pb-20 font-poppins bg-blue-50  bg-opacity-90  dark:bg-slate-900">
 
 	<div class="container mx-auto ">
 
@@ -478,7 +478,7 @@
 
 
 
-<section id="" class="pt-40 dark:bg-slate-950">
+<section id="" class="pt-20 pb-20 dark:bg-slate-950">
 
 	<div class="container mx-auto ">
 
@@ -499,11 +499,11 @@
 			</div>
 
 			<!-- card customer -->
-			<div class="w-full lg:w-1/2 mx-auto  ">
+			<div class="w-full lg:w-1/2 mx-auto   ">
 
 
 
-				<?php echo do_shortcode('[wpforms id="4094"]'); ?>
+				<?php echo do_shortcode('[wpforms id="3987"]'); ?>
 
 				<!-- 			<form action="">
 
