@@ -281,7 +281,7 @@
 			</div>
 
 			<div class="mt-6 ">
-				<a href="http://latihan1.local/work/" target="blank" class="inline-block bg-blue-400 hover:bg-blue-600 duration-300 py-3 px-8  rounded-lg text-white mb-3 font-semibold text-sm font-poppins ">Work More</a>
+				<a href="http://latihan1.local/work/" class="inline-block bg-blue-400 hover:bg-blue-600 duration-300 py-3 px-8  rounded-lg text-white mb-3 font-semibold text-sm font-poppins ">Work More</a>
 
 			</div>
 

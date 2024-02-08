@@ -541,6 +541,7 @@
     "ts-interface-checker": "^0.1.13",
     "tslib": "^2.5.0",
     "tty-browserify": "^0.0.0",
+    "tw-elements": "^1.1.0",
     "type": "^1.2.0",
     "type-is": "^1.6.18",
     "ua-parser-js": "^1.0.34",

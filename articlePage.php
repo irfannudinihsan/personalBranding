@@ -8,76 +8,105 @@ get_header(); ?>
 
     <?php
     $args = array(
-        'post_type' => 'post', 
+        'post_type' => 'post',
         'posts_per_page' => -1,
     );
 
     $query = new WP_Query($args); ?>
 
 
-<div class="container">
+   
+
+
+    <div class="container pt-10">
 
 
 
-<div  class="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-4 gap-3">
+        <div class="grid grid-cols-1 xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-4 gap-3">
 
 
-<?php  if ($query->have_posts()) :
-        while ($query->have_posts()) : $query->the_post();
-    ?>
+            <?php if ($query->have_posts()) :
+                while ($query->have_posts()) : $query->the_post();
+            ?>
 
-            <article class="bg-white dark:bg-slate-800 shadow-lg hover:-translate-y-3 duration-300 ease-in-out hover:shadow-blue-100 my-4 p-5 shadow-slate-200 dark:shadow-slate-950 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class(''); ?>>
-                <header class="entry-header mb-4">
-                    <?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
-                    <?php the_title(sprintf('<h2 class="entry-title text-lg md:text-2xl font-normal leading-tight dark:text-white "><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
-                    <time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished" class="text-sm text-slate-500"><?php echo get_the_date(); ?></time>
-                </header>
-                <?php if (is_search() || is_archive()) : ?>
-                    <div class="entry-summary">
-                        <?php the_excerpt(); ?>
-                    </div>
-                <?php else : ?>
-                    <div class="entry-content text-slate-400 text-sm">
-                        <?php
-                       
-                        the_content(
-                            sprintf(
-                                __('Continue reading %s', 'tailpress'),
-                                the_title('<span class="screen-reader-text">"', '"</span>', false)
-                            )
-                        );
+                    <article class="bg-white dark:bg-slate-800 shadow-lg dark:bg-slate-800 dark:shadow-slate-900 hover:-translate-y-3 duration-300 ease-in-out hover:shadow-blue-100 my-4 p-5 shadow-slate-200 rounded-xl" id="post-<?php the_ID(); ?>" <?php post_class(''); ?>>
 
-                        wp_link_pages(
-                            array(
-                                'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'tailpress') . '</span>',
-                                'after'       => '</div>',
-                                'link_before' => '<span>',
-                                'link_after'  => '</span>',
-                                'pagelink'    => '<span class="screen-reader-text">' . __('Page', 'tailpress') . ' </span>%',
-                                'separator'   => '<span class="screen-reader-text">, </span>',
-                            )
-                        );
-                        ?>
-                    </div>
-                <?php endif; ?>
-            </article>
+                        <header class="entry-header mb-4">
 
-    <?php
-        endwhile;
-        wp_reset_postdata();
-    else :
-        
-        echo 'Tidak ada postingan.';
-    endif;
-    ?>
+                            <?php the_post_thumbnail('medium rounded-lg mb-4 md:h-48 object-cover') ?>
+
+
+                            <?php the_title(sprintf('<h2 class="entry-title text-lg  dark:text-white md:text-2xl font-semibold text-slate-700 leading-tight "><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>');
 
 
 
-</div>
+                            ?>
 
-</div>
+                            <?php
 
-    
+                            $categories_list = get_the_category_list(' ');
+
+                            if ($categories_list) {
+                                echo '<p class=" font-poppins font-medium rounded-md px-2 mt-2 py-1 w-fit bg-blue-50 text-blue-400 ">' . $categories_list . '</p>';
+                            }
+                            ?>
+
+
+                        </header>
+
+
+
+
+
+
+                        <?php if (is_search() || is_archive()) : ?>
+
+                            <div class="entry-summary">
+                                <?php the_excerpt(); ?>
+                            </div>
+
+                        <?php else : ?>
+
+                            <div class="entry-content text-slate-400 text-sm">
+                                <?php
+                                /* translators: %s: Name of current post */
+
+
+                                wp_link_pages(
+                                    array(
+                                        'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'tailpress') . '</span>',
+                                        'after'       => '</div>',
+                                        'link_before' => '<span>',
+                                        'link_after'  => '</span>',
+                                        'pagelink'    => '<span class="screen-reader-text">' . __('Page', 'tailpress') . ' </span>%',
+                                        'separator'   => '<span class="screen-reader-text">, </span>',
+                                    )
+                                );
+                                ?>
+                            </div>
+
+                        <?php endif; ?>
+
+                    </article>
+
+            <?php
+                endwhile;
+                wp_reset_postdata();
+            else :
+
+                echo 'Tidak ada postingan.';
+            endif;
+            ?>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
 
 
 

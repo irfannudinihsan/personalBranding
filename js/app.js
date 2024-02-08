@@ -9,15 +9,15 @@
 
 var HSThemeAppearance = {
   init: function init() {
-    var defaultTheme = 'default';
-    var theme = localStorage.getItem('hs_theme') || defaultTheme;
-    if (document.querySelector('html').classList.contains('dark')) return;
+    var defaultTheme = "default";
+    var theme = localStorage.getItem("hs_theme") || defaultTheme;
+    if (document.querySelector("html").classList.contains("dark")) return;
     this.setAppearance(theme);
   },
   _resetStylesOnLoad: function _resetStylesOnLoad() {
-    var $resetStyles = document.createElement('style');
+    var $resetStyles = document.createElement("style");
     $resetStyles.innerText = "*{transition: unset !important;}";
-    $resetStyles.setAttribute('data-hs-appearance-onload-styles', '');
+    $resetStyles.setAttribute("data-hs-appearance-onload-styles", "");
     document.head.appendChild($resetStyles);
     return $resetStyles;
   },
@@ -26,70 +26,76 @@ var HSThemeAppearance = {
     var dispatchEvent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
     var $resetStylesEl = this._resetStylesOnLoad();
     if (saveInStore) {
-      localStorage.setItem('hs_theme', theme);
+      localStorage.setItem("hs_theme", theme);
     }
-    if (theme === 'auto') {
-      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+    if (theme === "auto") {
+      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default";
     }
-    document.querySelector('html').classList.remove('dark');
-    document.querySelector('html').classList.remove('default');
-    document.querySelector('html').classList.remove('auto');
-    document.querySelector('html').classList.add(this.getOriginalAppearance());
+    document.querySelector("html").classList.remove("dark");
+    document.querySelector("html").classList.remove("default");
+    document.querySelector("html").classList.remove("auto");
+    document.querySelector("html").classList.add(this.getOriginalAppearance());
     setTimeout(function () {
       $resetStylesEl.remove();
     });
     if (dispatchEvent) {
-      window.dispatchEvent(new CustomEvent('on-hs-appearance-change', {
+      window.dispatchEvent(new CustomEvent("on-hs-appearance-change", {
         detail: theme
       }));
     }
   },
   getAppearance: function getAppearance() {
     var theme = this.getOriginalAppearance();
-    if (theme === 'auto') {
-      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+    if (theme === "auto") {
+      theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default";
     }
     return theme;
   },
   getOriginalAppearance: function getOriginalAppearance() {
-    var defaultTheme = 'default';
-    return localStorage.getItem('hs_theme') || defaultTheme;
+    var defaultTheme = "default";
+    return localStorage.getItem("hs_theme") || defaultTheme;
   }
 };
 HSThemeAppearance.init();
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
-  if (HSThemeAppearance.getOriginalAppearance() === 'auto') {
-    HSThemeAppearance.setAppearance('auto', false);
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (e) {
+  if (HSThemeAppearance.getOriginalAppearance() === "auto") {
+    HSThemeAppearance.setAppearance("auto", false);
   }
 });
-window.addEventListener('load', function () {
-  var $clickableThemes = document.querySelectorAll('[data-hs-theme-click-value]');
-  var $switchableThemes = document.querySelectorAll('[data-hs-theme-switch]');
+window.addEventListener("load", function () {
+  var $clickableThemes = document.querySelectorAll("[data-hs-theme-click-value]");
+  var $switchableThemes = document.querySelectorAll("[data-hs-theme-switch]");
   $clickableThemes.forEach(function ($item) {
-    $item.addEventListener('click', function () {
-      return HSThemeAppearance.setAppearance($item.getAttribute('data-hs-theme-click-value'), true, $item);
+    $item.addEventListener("click", function () {
+      return HSThemeAppearance.setAppearance($item.getAttribute("data-hs-theme-click-value"), true, $item);
     });
   });
   $switchableThemes.forEach(function ($item) {
-    $item.addEventListener('change', function (e) {
-      HSThemeAppearance.setAppearance(e.target.checked ? 'dark' : 'default');
+    $item.addEventListener("change", function (e) {
+      HSThemeAppearance.setAppearance(e.target.checked ? "dark" : "default");
     });
-    $item.checked = HSThemeAppearance.getAppearance() === 'dark';
+    $item.checked = HSThemeAppearance.getAppearance() === "dark";
   });
-  window.addEventListener('on-hs-appearance-change', function (e) {
+  window.addEventListener("on-hs-appearance-change", function (e) {
     $switchableThemes.forEach(function ($item) {
-      $item.checked = e.detail === 'dark';
+      $item.checked = e.detail === "dark";
     });
   });
 });
 
 // Navigation toggle
-window.addEventListener('load', function () {
-  var main_navigation = document.querySelector('#primary-menu');
-  document.querySelector('#primary-menu-toggle').addEventListener('click', function (e) {
+window.addEventListener("load", function () {
+  var main_navigation = document.querySelector("#primary-menu");
+  document.querySelector("#primary-menu-toggle").addEventListener("click", function (e) {
     e.preventDefault();
-    main_navigation.classList.toggle('hidden');
+    main_navigation.classList.toggle("hidden");
   });
+});
+var _twElements = twElements,
+  Tab = _twElements.Tab,
+  initTE = _twElements.initTE;
+initTE({
+  Tab: Tab
 });
 
 /***/ }),

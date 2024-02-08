@@ -11,6 +11,7 @@ module.exports = {
     "./resources/js/*.js",
     "./safelist.txt",
     "./css/**/*.css",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
 
   theme: {
@@ -41,5 +42,5 @@ module.exports = {
       "2xl": "1536px",
     },
   },
-  plugins: [tailpress.tailwind],
+  plugins: [tailpress.tailwind]
 };

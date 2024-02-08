@@ -7,9 +7,18 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<link rel="stylesheet" href="./css/app.css" />
+	<link rel="icon" type="image/png" sizes="16x16"  href="./images/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
 	<?php wp_head(); ?>
+
+	<!-- tw element  -->
+	<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+	<script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+
 </head>
 
 <body <?php body_class('bg-white text-gray-900 antialiased'); ?>>
@@ -21,7 +30,7 @@
 		<?php do_action('tailpress_header'); ?>
 
 
-		<header class=" absolute left-0 w-full z-50 py-6 font-poppins bg-white dark:bg-slate-800">
+		<header class=" absolute left-0 w-full z-50 py-6 font-poppins bg-white dark:bg-slate-800 shadow-lg shadow-blue-50 dark:shadow-slate-950  ">
 
 			<div class="container mx-auto">
 				<div class="lg:flex mx-auto lg:justify-between lg:items-center  ">
@@ -45,7 +54,7 @@
 						<div class="lg:hidden">
 							<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
 								<svg viewBox="0 0 20 20" class="inline-block w-6 h-6 dark:fill-white fill-black" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g stroke="none" stroke-width="1"  fill-rule="evenodd">
+									<g stroke="none" stroke-width="1" fill-rule="evenodd">
 										<g id="icon-shape">
 											<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
 										</g>
@@ -59,7 +68,7 @@
 					wp_nav_menu(
 						array(
 							'container_id'    => 'primary-menu',
-							'container_class' => 'hidden font-normal text-slate-800 mt-4  text-md  lg:mt-0 lg:p-0 lg:bg-transparent lg:block py-10 dark:text-white',
+							'container_class' => 'hidden font-semibold text-slate-800 mt-4  text-md  lg:mt-0 lg:p-0 lg:bg-transparent lg:block py-10 dark:text-white ',
 							'menu_class'      => 'lg:flex  lg:-mx-4',
 							'theme_location'  => 'primary',
 							'li_class'        => 'lg:mx-4',
