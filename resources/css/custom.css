@@ -44,7 +44,7 @@
 
 
 .wpforms-submit {
-    @apply inline-block bg-blue-500 py-3 px-8 rounded-lg text-white mb-3 font-semibold text-sm font-poppins
+    @apply inline-block bg-blue-400 hover:bg-blue-600 py-3 px-8 rounded-lg text-white mb-3 font-semibold text-sm font-poppins
 }
 
     
